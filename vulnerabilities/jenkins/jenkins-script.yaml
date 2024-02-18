@@ -1,0 +1,34 @@
+id: jenkins-script
+
+info:
+  name: Jenkins - Script 远程代码执行
+  author: philippedelteil
+  severity: critical
+  description: |
+    由于可访问的脚本功能，Jenkins容易受到远程代码执行漏洞的影响.
+  tags: jenkins
+  metadata:
+    max-request: 1
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/script/"
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "println(Jenkins.instance.pluginManager.plugins)"
+
+      - type: word
+        part: body
+        words:
+          - "Script Console"
+          - "Scriptconsole"
+        condition: or
+
+      - type: status
+        status:
+          - 200

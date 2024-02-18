@@ -1,0 +1,59 @@
+id: springboot-env
+
+info:
+  name: SpringBoot Env - 信息泄露
+  author: wintry
+  severity: high
+  description: SpringBoot Env-服务器配置信息泄露
+  remediation: 隐藏此文件信息,不直接暴露出来即可
+  tags: spring
+  metadata:
+    max-request: 14
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/env"
+      - "{{BaseURL}}/actuator/env"
+      - "{{BaseURL}}/api/env"
+      - "{{BaseURL}}/api/actuator/env"
+      - "{{BaseURL}}/app/env"
+      - "{{BaseURL}}/app/actuator/env"
+      - "{{BaseURL}}/actuator;/env;"
+      - "{{BaseURL}}/message-api/actuator/env"
+      - "{{BaseURL}}/appenv"
+      - "{{BaseURL}}/actuator/appenv"
+      - "{{BaseURL}}/manage/env"
+      - "{{BaseURL}}/management/env"
+      - "{{BaseURL}}/manage/appenv"
+      - "{{BaseURL}}/management/appenv"
+
+    stop-at-first-match: true
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "applicationConfig"
+          - "activeProfiles"
+        condition: or
+
+      - type: word
+        part: body
+        words:
+          - "server.port"
+          - "local.server.port"
+        condition: or
+
+      - type: word
+        part: header
+        words:
+          - "application/json"
+          - "application/vnd.spring-boot.actuator"
+          - "application/vnd.spring-boot.actuator.v1+json"
+          - "application/vnd.spring-boot.actuator.v2+json"
+        condition: or
+
+      - type: status
+        status:
+          - 200

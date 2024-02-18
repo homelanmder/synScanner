@@ -1,0 +1,29 @@
+id: hikvision-info-leak
+
+info:
+  name: 海康威视(hikvision) - 配置文件泄露
+  author: wintry
+  severity: medium
+  description: 海康威视(hikvision) - 配置文件泄露.
+  remediation: 将配置文件隐藏起来,不要暴露在服务器上.
+  tags: hikvision
+  metadata:
+    max-request: 1
+
+http:
+  - method: GET
+    path:
+      - '{{BaseURL}}/config/user.xml'
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - '<user name='
+          - 'password='
+        condition: and
+
+      - type: word
+        words:
+          - "text/xml"
+        part: header

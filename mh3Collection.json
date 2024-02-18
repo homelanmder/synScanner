@@ -1,0 +1,224 @@
+[
+  {
+    "class": "中间件",
+    "mmh3": "1908147121",
+    "name": "Asp.NET",
+    "value": "notag"
+  },
+  {
+    "class": "工控设备",
+    "mmh3": "658325731",
+    "name": "Avaya Aura",
+    "value": "aura"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "1766699363",
+    "name": "Apache ActiveMQ",
+    "value": "activemq"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "-690737496",
+    "name": "Apache Kafka",
+    "value": "kafka"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "-629047854",
+    "name": "Apache Solr",
+    "value": "solr"
+  },
+  {
+    "class": "中间件",
+    "mmh3": "-305179312",
+    "name": "Confluence",
+    "value": "confluence"
+  },
+  {
+    "class": "开发框架",
+    "mmh3": "-47597126",
+    "name": "帝国CMS DedeCMS",
+    "value": "dedecms"
+  },
+  {
+    "class": "协同办公",
+    "mmh3": "2062026853",
+    "name": "E-Mobile",
+    "value": "emobile"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "516963061",
+    "name": "Gitlab",
+    "value": "gitlab"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "1265477436",
+    "name": "Gitlab",
+    "value": "gitlab"
+  },
+  {
+    "class": "开发框架",
+    "mmh3": "116323821",
+    "name": "Spring",
+    "value": "spring"
+  },
+  {
+    "class": "开发框架",
+    "mmh3": "1165838194",
+    "name": "ThinkPHP",
+    "value": "thinkphp"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "968512519",
+    "name": "群晖DSM",
+    "value": "qunhui"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "332567073",
+    "name": "群晖NAS",
+    "value": "qunhui"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "657337228",
+    "name": "Harboor",
+    "value": "harboor"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "81586312",
+    "name": "Jenkins",
+    "value": "jenkins"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "1611729805",
+    "name": "Elasticsearch",
+    "value": "elasticsearch"
+  },
+  {
+    "class": "开发框架",
+    "mmh3": "706913071",
+    "name": "Spring",
+    "value": "spring"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "1064742722",
+    "name": "RabbitMQ",
+    "value": "rabbitmq"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "-1015107330",
+    "name": "RabbitMQ",
+    "value": "rabbitmq"
+  },
+  {
+    "class": "网络设备",
+    "mmh3": "428165606",
+    "name": "WifiSky 7层流路由器",
+    "value": "wifisky"
+  },
+  {
+    "class": "开发框架",
+    "mmh3": "1262005940",
+    "name": "Jamf Pro",
+    "value": "jamf"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "855273746",
+    "name": "Jira",
+    "value": "jira"
+  },
+  {
+    "class": "视频设备",
+    "mmh3": "-1219968232",
+    "name": "视频云结构化服务器",
+    "value": "huawei-video"
+  },
+  {
+    "class": "视频设备",
+    "mmh3": "999357577",
+    "name": "海康威视-网络摄像机",
+    "value": "hikvision"
+  },
+  {
+    "class": "视频设备",
+    "mmh3": "-1700126198",
+    "name": "大华技术-网络摄像机",
+    "value": "dahua"
+  },
+  {
+    "class": "视频设备",
+    "mmh3": "349065927",
+    "name": "海康威视-安防综合集中监管平台",
+    "value": "hikvision"
+  },
+  {
+    "class": "数据库",
+    "mmh3": "-525659379",
+    "name": "H2数据库控制台",
+    "value": "h2db"
+  },
+  {
+    "class": "文件存储服务器",
+    "mmh3": "1435575766",
+    "name": "Minio文件存储",
+    "value": "minio"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "-138391155",
+    "name": "Prometheus系统监控",
+    "value": "prometheus"
+  },
+  {
+    "class": "运维管理",
+    "mmh3": "-1608410638",
+    "name": "FusionCompute虚拟化系统",
+    "value": "huawei-fusion"
+  },
+  {
+    "class": "数据库",
+    "mmh3": "-808437027",
+    "name": "视频图像信息数据库",
+    "value": "notag"
+  },
+  {
+    "class": "视频设备",
+    "mmh3": "793272199",
+    "name": "视频图像信息综合应用平台",
+    "value": "hikvision"
+  },
+  {
+    "class": "扫描器",
+    "mmh3": "1474200963",
+    "name": "[天防]视频网监测平台",
+    "value": "tfsec"
+  },
+  {
+    "class": "网络设备",
+    "mmh3": "1321489796",
+    "name": "新舟锐舰-智能跟踪一体化系统",
+    "value": "notag"
+  },
+  {
+    "class": "边界设备",
+    "mmh3": "-111144665",
+    "name": "明御主机安全及管理系统",
+    "value": "notag"
+  },
+  {
+    "class": "视频设备",
+    "mmh3": "358931906",
+    "name": "商周锐视-智能跟踪一体化系统",
+    "value": "notag"
+  }
+]

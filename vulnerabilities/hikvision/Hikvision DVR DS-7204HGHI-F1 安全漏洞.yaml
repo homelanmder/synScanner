@@ -1,0 +1,31 @@
+id: Hikvision 视频接入网关-任意文件遍历
+
+info:
+  name: Hikvision 视频接入网关-任意文件遍历
+  author: wintry
+  severity: critical
+  tags: hikvision
+
+http:
+  - raw:
+      - |
+        GET /ISAPI/Security/sessionLogin/capabilities?username=admin HTTP/1.1
+        Host: {{Hostname}}
+
+      - |
+        GET /ISAPI/Security/sessionLogin/capabilities?username=admin{{device}} HTTP/1.1
+        Host: {{Hostname}}
+
+    extractors:
+      - type: regex
+        name: device
+        internal: true
+        group: 1
+        regex:
+          - '((?i)device)'
+          -
+    matchers:
+      - type: word
+        part: body
+        words:
+          - '<isIrreversible>'

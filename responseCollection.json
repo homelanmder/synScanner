@@ -1,0 +1,2249 @@
+[
+  {
+    "class": "中间件",
+    "name": "Shiro",
+    "rule": "(=deleteMe|rememberMe=)",
+    "type": "headers",
+    "value": "shiro"
+  },
+  {
+    "class": "中间件",
+    "name": "Weblogic",
+    "rule": "(/console/framework/skins/wlsconsole/images/login_WebLogic_branding.png|Welcome to Weblogic Application Server|Hypertext Transfer Protocol -- HTTP/1.1|/Branding_Login_WeblogicConsole.gif|alt=\"Oracle WebLogic Server 管理控制台 \")",
+    "type": "code",
+    "value": "weblogic"
+  },
+  {
+    "class": "中间件",
+    "name": "Weblogic",
+    "rule": "(WebLogic)",
+    "type": "headers",
+    "value": "weblogic"
+  },
+  {
+    "class": "中间件",
+    "name": "Jboss",
+    "rule": "(Welcome to JBoss|jboss.css)",
+    "type": "code",
+    "value": "jboss"
+  },
+  {
+    "class": "中间件",
+    "name": "Jboss",
+    "rule": "(JBoss)",
+    "type": "headers",
+    "value": "jboss"
+  },
+  {
+    "class": "中间件",
+    "name": "Tomcat默认页面",
+    "rule": "(/manager/html|/manager/status)",
+    "type": "code",
+    "value": "tomcatdefault"
+  },
+  {
+    "class": "中间件",
+    "name": "Struts2",
+    "rule": "(org.apache.struts2|Struts Problem Report|struts.devMode|struts-tags|There is no Action mapped for namespace)",
+    "type": "code",
+    "value": "struts2"
+  },
+  {
+    "class": "中间件",
+    "name": "Apache 2.4.49",
+    "rule": "(Apache/2.4.49)",
+    "type": "headers",
+    "value": "apache2449"
+  },
+  {
+    "class": "中间件",
+    "name": "Apache 2.4.50",
+    "rule": "(Apache/2.4.50)",
+    "type": "headers",
+    "value": "apache2450"
+  },
+  {
+    "class": "邮件服务器",
+    "name": "Exchange",
+    "rule": "(MAIL01|X-FEServer)",
+    "type": "headers",
+    "value": "exchange"
+  },
+  {
+    "class": "邮件服务器",
+    "name": "Exchange",
+    "rule": "(/owa/auth.owa|/owa/auth/)",
+    "type": "code",
+    "value": "exchange"
+  },
+  {
+    "class": "邮件服务器",
+    "name": "eYou-亿邮系统",
+    "rule": "(content=\"亿邮电子邮件系统)",
+    "type": "code",
+    "value": "eyoumail"
+  },
+  {
+    "class": "邮件服务器",
+    "name": "CoreMail",
+    "rule": "(coremail/Common|/coremail/bundle/)",
+    "type": "code",
+    "value": "coremail"
+  },
+  {
+    "class": "邮件服务器",
+    "name": "Spammark 邮件信息安全网关",
+    "rule": "(/cgi-bin/spammark?empty=1)",
+    "type": "code",
+    "value": "spammark"
+  },
+  {
+    "class": "邮件服务器",
+    "name": "Winwebmail",
+    "rule": "(WinWebMail Server|images/owin.css)",
+    "type": "code",
+    "value": "winwebmail"
+  },
+  {
+    "class": "工控设备",
+    "name": "Avaya Aura",
+    "rule": "(Avaya Aura)",
+    "type": "code",
+    "value": "aura"
+  },
+  {
+    "class": "协同办公",
+    "name": "致远OA",
+    "rule": "(Seeyon-Server|SY8045)",
+    "type": "headers",
+    "value": "seeyon"
+  },
+  {
+    "class": "协同办公",
+    "name": "致远OA",
+    "rule": "(/seeyon/USER-DATA/IMAGES/LOGIN/login.gif|/seeyon/Common|yyoa/5)",
+    "type": "code",
+    "value": "seeyon"
+  },
+  {
+    "class": "协同办公",
+    "name": "通达OA",
+    "rule": "(tongda.ico|onmouseover=\"this.focus()\")",
+    "type": "code",
+    "value": "tongda"
+  },
+  {
+    "class": "协同办公",
+    "name": "泛微OA",
+    "rule": "(/wui/theme|/js/ecology8/lang/weaver_lang_7_wev8.js|/spa/portal/public/index.js)",
+    "type": "code",
+    "value": "ecology"
+  },
+  {
+    "class": "协同办公",
+    "name": "泛微OA",
+    "rule": "(WVS|ecology_JSessionid)",
+    "type": "headers",
+    "value": "ecology"
+  },
+  {
+    "class": "协同办公",
+    "name": "e-Bridge",
+    "rule": "(/main/login/images/loginlogo.png|e-Bridge)",
+    "type": "code",
+    "value": "e-bridge"
+  },
+  {
+    "class": "协同办公",
+    "name": "E-Mobile",
+    "rule": "(<title>移动管理平台-企业管理</title>)",
+    "type": "code",
+    "value": "emobile"
+  },
+  {
+    "class": "协同办公",
+    "name": "E-Mobile",
+    "rule": "(EMobileServer)",
+    "type": "headers",
+    "value": "emobile"
+  },
+  {
+    "class": "协同办公",
+    "name": "蓝凌OA",
+    "rule": "(kmss_onsubmit|sys/ui/extend/theme/default/style/icon.css)",
+    "type": "code",
+    "value": "landray"
+  },
+  {
+    "class": "协同办公",
+    "name": "蓝凌EIS智慧协同平台",
+    "rule": "(/scripts/jquery.landray.Common.js)",
+    "type": "code",
+    "value": "landray"
+  },
+  {
+    "class": "协同办公",
+    "name": "用友NC",
+    "rule": "(YONYOU NC | /Client/Uclient/UClient.dmg)",
+    "type": "code",
+    "value": "yongyou"
+  },
+  {
+    "class": "协同办公",
+    "name": "用友IUFO",
+    "rule": "(iufo/web/css/menu.css)",
+    "type": "code",
+    "value": "yongyou"
+  },
+  {
+    "class": "协同办公",
+    "name": "用友软件",
+    "rule": "(uclient.yonyou.com|/System/Login/Login.asp?AppID=|/nc/servlet/nc.ui.iufo.login.Index)",
+    "type": "code",
+    "value": "yongyou"
+  },
+  {
+    "class": "协同办公",
+    "name": "Zentao-禅道",
+    "rule": "(/zentao/theme/|/theme/default/images/main/zt-logo.png)",
+    "type": "code",
+    "value": "zentao"
+  },
+  {
+    "class": "协同办公",
+    "name": "Zentao-禅道",
+    "rule": "(zentaosid)",
+    "type": "headers",
+    "value": "zentao"
+  },
+  {
+    "class": "协同办公",
+    "name": "协众OA",
+    "rule": "(CNOAOASESSID)",
+    "type": "headers",
+    "value": "xiezhong"
+  },
+  {
+    "class": "协同办公",
+    "name": "金和OA",
+    "rule": "(金和协同管理平台)",
+    "type": "code",
+    "value": "jinheoa"
+  },
+  {
+    "class": "协同办公",
+    "name": "金和OA",
+    "rule": "(ASPSESSIONIDSSCDTDBS)",
+    "type": "cookie",
+    "value": "jinheoa"
+  },
+  {
+    "class": "协同办公",
+    "name": "红帆OA",
+    "rule": "(iOffice)",
+    "type": "code",
+    "value": "hongfan"
+  },
+  {
+    "class": "协同办公",
+    "name": "海昌OA",
+    "rule": "(/loginmain4/js/jquery.min.js)",
+    "type": "code",
+    "value": "hcoa"
+  },
+  {
+    "class": "协同办公",
+    "name": "启莱OA",
+    "rule": "(js/jQselect.js|js/jquery-1.4.2.min.js)",
+    "type": "code",
+    "value": "qloa"
+  },
+  {
+    "class": "协同办公",
+    "name": "帆软报表",
+    "rule": "(WebReport/login.html|ReportServer)",
+    "type": "code",
+    "value": "finereport"
+  },
+  {
+    "class": "协同办公",
+    "name": "帆软报表",
+    "rule": "(数据决策系统)",
+    "type": "headers",
+    "value": "finereport"
+  },
+  {
+    "class": "协同办公",
+    "name": "久其财务报表",
+    "rule": "(netrep/login.jsp|/netrep/intf)",
+    "type": "code",
+    "value": "jqreport"
+  },
+  {
+    "class": "协同办公",
+    "name": "金碟EAS",
+    "rule": "(easSessionId)",
+    "type": "headers",
+    "value": "kdgs"
+  },
+  {
+    "class": "协同办公",
+    "name": "金碟政务GSiS",
+    "rule": "(/kdgs/script/kdgs.js)",
+    "type": "code",
+    "value": "kdgs"
+  },
+  {
+    "class": "协同办公",
+    "name": "万户ezOFFICE",
+    "rule": "(LocLan)",
+    "type": "headers",
+    "value": "ezwh"
+  },
+  {
+    "class": "协同办公",
+    "name": "万户网络",
+    "rule": "(css/css_whir.css)",
+    "type": "code",
+    "value": "ezwh"
+  },
+  {
+    "class": "协同办公",
+    "name": "华夏ERP",
+    "rule": "(华夏ERP)",
+    "type": "headers",
+    "value": "hxerp"
+  },
+  {
+    "class": "协同办公",
+    "name": "正方OA",
+    "rule": "(zfoausername)",
+    "type": "code",
+    "value": "zfoa"
+  },
+  {
+    "class": "协同办公",
+    "name": "希尔OA",
+    "rule": "(/heeroa/login.do)",
+    "type": "code",
+    "value": "xroa"
+  },
+  {
+    "class": "协同办公",
+    "name": "泛普建筑工程施工OA",
+    "rule": "(/dwr/interface/LoginService.js)",
+    "type": "code",
+    "value": "fpgcoa"
+  },
+  {
+    "class": "协同办公",
+    "name": "中望OA",
+    "rule": "(/IMAGES/default/first/xtoa_logo.png|/app_qjuserinfo/qjuserinfoadd.jsp)",
+    "type": "code",
+    "value": "zwoa"
+  },
+  {
+    "class": "协同办公",
+    "name": "海天OA",
+    "rule": "(HTVOS.js)",
+    "type": "code",
+    "value": "htoa"
+  },
+  {
+    "class": "协同办公",
+    "name": "信达OA",
+    "rule": "(http://www.xdoa.cn</a>)",
+    "type": "code",
+    "value": "xdoa"
+  },
+  {
+    "class": "协同办公",
+    "name": "任我行CRM",
+    "rule": "(CRM_LASTLOGINUSERKEY)",
+    "type": "code",
+    "value": "rwxcrm"
+  },
+  {
+    "class": "开发框架",
+    "name": "Apache OFBiz",
+    "rule": "(OFBiz.Visito)",
+    "type": "headers",
+    "value": "ofbiz"
+  },
+  {
+    "class": "开发框架",
+    "name": "Apache OFBiz",
+    "rule": "(.jvm1)",
+    "type": "cookie",
+    "value": "ofbiz"
+  },
+  {
+    "class": "开发框架",
+    "name": "帝国CMS DedeCMS",
+    "rule": "(<h3>DedeCMS Error Warning!</h3>|<link href=\"/templets/default/style/dedecms.css\")",
+    "type": "code",
+    "value": "dedecms"
+  },
+  {
+    "class": "开发框架",
+    "name": "若依管理系统",
+    "rule": "(ruoyi/login.js|ruoyi/js/ry-ui.js|class=\"loader-section section-right\"></div><div class=load_title>正在加载系统资源，请耐心等待)",
+    "type": "code",
+    "value": "ruoyi"
+  },
+  {
+    "class": "开发框架",
+    "name": "Spring",
+    "rule": "(\"status\":404,\"error\":\"Not Found\",|<h1>Whitelabel Error Page</h1>)",
+    "type": "code",
+    "value": "spring"
+  },
+  {
+    "class": "开发框架",
+    "name": "Flask框架",
+    "rule": "(Werkzeug)",
+    "type": "headers",
+    "value": "flask"
+  },
+  {
+    "class": "开发框架",
+    "name": "Drupal 框架",
+    "rule": "(data-drupal-link-system-path|content=\"Drupal)",
+    "type": "code",
+    "value": "drupal"
+  },
+  {
+    "class": "开发框架",
+    "name": "ThinkPHP",
+    "rule": "(ThinkPHP</a>|十年磨一剑-为API开发设计的高性能框架|<h1>页面错误！请稍后再试～</h1>|Simple OOP PHP Framework)",
+    "type": "code",
+    "value": "thinkphp"
+  },
+  {
+    "class": "开发框架",
+    "name": "ThinkPHP",
+    "rule": "(ThinkPHP)",
+    "type": "headers",
+    "value": "thinkphp"
+  },
+  {
+    "class": "开发框架",
+    "name": "ThinkCMF",
+    "rule": "(Simple content manage Framework)",
+    "type": "code",
+    "value": "thinkcmf"
+  },
+  {
+    "class": "开发框架",
+    "name": "WordPress",
+    "rule": "(wp-content)",
+    "type": "code",
+    "value": "wordpress"
+  },
+  {
+    "class": "开发框架",
+    "name": "beego",
+    "rule": "(Powered by beego 1.6.1)",
+    "type": "code",
+    "value": "beego"
+  },
+  {
+    "class": "开发框架",
+    "name": "Discuz",
+    "rule": "(content=\"Discuz! X\")",
+    "type": "code",
+    "value": "discuz"
+  },
+  {
+    "class": "开发框架",
+    "name": "Typecho",
+    "rule": "(Typecho</a>)",
+    "type": "code",
+    "value": "typecho"
+  },
+  {
+    "class": "开发框架",
+    "name": "Laravel",
+    "rule": "(laravel_session)",
+    "type": "headers",
+    "value": "laravel"
+  },
+  {
+    "class": "开发框架",
+    "name": "大汉版通发布系统",
+    "rule": "(大汉版通发布系统|大汉网络)",
+    "type": "code",
+    "value": "dahanweb"
+  },
+  {
+    "class": "开发框架",
+    "name": "智慧校园管理系统",
+    "rule": "(DC_Login/QYSignUp)",
+    "type": "code",
+    "value": "edu"
+  },
+  {
+    "class": "开发框架",
+    "name": "jeesite",
+    "rule": "(jeesite.session.id)",
+    "type": "cookie",
+    "value": "jeesite"
+  },
+  {
+    "class": "开发框架",
+    "name": "拓尔思SSO",
+    "rule": "(trsidsssosessionid)",
+    "type": "cookie",
+    "value": "trs"
+  },
+  {
+    "class": "开发框架",
+    "name": "拓尔思WCMv7/6",
+    "rule": "(com.trs.idm.coSessionId)",
+    "type": "cookie",
+    "value": "trs"
+  },
+  {
+    "class": "开发框架",
+    "name": "拓尔思 WCM",
+    "rule": "(body=\"load(\"/wcm\" && country=\"CN\")",
+    "type": "code",
+    "value": "trs"
+  },
+  {
+    "class": "开发框架",
+    "name": "URP教务系统",
+    "rule": "(北京清元优软科技有限公司)",
+    "type": "code",
+    "value": "urpedu"
+  },
+  {
+    "class": "开发框架",
+    "name": "Joomla",
+    "rule": "(Joomla)",
+    "type": "code",
+    "value": "joomla"
+  },
+  {
+    "class": "开发框架",
+    "name": "JEECMS",
+    "rule": "(/r/cms/www/red/js/Common.js|/r/cms/www/red/js/indexshow.js|Powered by JEECMS|JEECMS|/jeeadmin/jeecms/index.do)",
+    "type": "code",
+    "value": "jeecms"
+  },
+  {
+    "class": "开发框架",
+    "name": "Jamf Pro",
+    "rule": "(ui/images/svg/logos/jamf-pro-color.svg|<title>Jamf Pro Login</title>)",
+    "type": "code",
+    "value": "jamf"
+  },
+  {
+    "class": "运维管理",
+    "name": "WSO2",
+    "rule": "(<title>WSO2 Management Console</title>|browser to use WSO2 Products|<img src=\"../admin/images/1px.gif)",
+    "type": "code",
+    "value": "wso2"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache APISIX",
+    "rule": "(src=\"/static/logo.3d9a56bf.svg)",
+    "type": "code",
+    "value": "apisix"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache Airflow",
+    "rule": "(<title>Sign In - Airflow|airflowDefaultTheme)",
+    "type": "code",
+    "value": "airflow"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache Kylin",
+    "rule": "(url=kylin)",
+    "type": "code",
+    "value": "kylin"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache ActiveMQ",
+    "rule": "(activemq_logo|Manage ActiveMQ broker)",
+    "type": "code",
+    "value": "activemq"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache RabbitMQ",
+    "rule": "(rabbitmqlogo.svg)",
+    "type": "code",
+    "value": "rabbitmq"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache Druid",
+    "rule": "(/unified-console.html)",
+    "type": "headers",
+    "value": "druid"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache Druid",
+    "rule": "(<meta name=\"description\" content=\"Apache Druid console)",
+    "type": "code",
+    "value": "druid"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache Flink",
+    "rule": "(<title>Apache Flink Web Dashboard</title>|<flink-root></flink-root>)",
+    "type": "code",
+    "value": "flink"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache Kafka",
+    "rule": "(<title>Kafka Manager</title>)",
+    "type": "code",
+    "value": "kafka"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache Spark",
+    "rule": "(src=\"/static/spark-logo)",
+    "type": "code",
+    "value": "spark"
+  },
+  {
+    "class": "运维管理",
+    "name": "Apache Solr",
+    "rule": "(id=\"solr\"><span>Apache SOLR</span>)",
+    "type": "code",
+    "value": "solr"
+  },
+  {
+    "class": "运维管理",
+    "name": "Cacti 监控系统",
+    "rule": "(The Cacti Group)",
+    "type": "code",
+    "value": "cacti"
+  },
+  {
+    "class": "运维管理",
+    "name": "Confluence",
+    "rule": "(<span class=\"aui-header-logo-device\">Confluence</span>)",
+    "type": "code",
+    "value": "confluence"
+  },
+  {
+    "class": "运维管理",
+    "name": "Swagger UI",
+    "rule": "(/swagger-ui.css|swagger-ui-bundle.js)",
+    "type": "code",
+    "value": "swagger"
+  },
+  {
+    "class": "运维管理",
+    "name": "Gitea",
+    "rule": "(content=\"Gitea - Git with a cup of tea)",
+    "type": "code",
+    "value": "gitea"
+  },
+  {
+    "class": "运维管理",
+    "name": "Gitlab",
+    "rule": "(assets/gitlab_logo|/users/sign_in|content=\"GitLab)",
+    "type": "code",
+    "value": "gitlab"
+  },
+  {
+    "class": "运维管理",
+    "name": "Grafana",
+    "rule": "(<title>Grafana</title>|class=\"theme-dark app-grafana\">)",
+    "type": "code",
+    "value": "grafana"
+  },
+  {
+    "class": "运维管理",
+    "name": "Grafana",
+    "rule": "(redirect_to=%2F|SameSite=Lax)",
+    "type": "cookie",
+    "value": "grafana"
+  },
+  {
+    "class": "运维管理",
+    "name": "宝塔面板",
+    "rule": "(app.bt.cn/static/app.png|安全入口校验失败)",
+    "type": "code",
+    "value": "baota"
+  },
+  {
+    "class": "运维管理",
+    "name": "Zabbix",
+    "rule": "(images/general/zabbix.ico|Zabbix SIA)",
+    "type": "code",
+    "value": "zabbix"
+  },
+  {
+    "class": "运维管理",
+    "name": "Zabbix",
+    "rule": "(zbx_sessionid)",
+    "type": "headers",
+    "value": "zabbix"
+  },
+  {
+    "class": "运维管理",
+    "name": "phpMyAdmin",
+    "rule": "(phpmyadmin.css|img/logo_right.png)",
+    "type": "code",
+    "value": "phpmyadmin"
+  },
+  {
+    "class": "运维管理",
+    "name": "Nagios",
+    "rule": "(Nagios Access)",
+    "type": "code",
+    "value": "nagios"
+  },
+  {
+    "class": "运维管理",
+    "name": "Nexus",
+    "rule": "(Nexus Repository Manager)",
+    "type": "code",
+    "value": "nexus"
+  },
+  {
+    "class": "运维管理",
+    "name": "Nexus",
+    "rule": "(NX-ANTI-CSRF-TOKEN)",
+    "type": "headers",
+    "value": "nexus"
+  },
+  {
+    "class": "运维管理",
+    "name": "Nacos",
+    "rule": "(<title>Nacos</title>|img/nacos-logo.png)",
+    "type": "code",
+    "value": "nacos"
+  },
+  {
+    "class": "运维管理",
+    "name": "Nagios",
+    "rule": "(nagios admin|Nagios Access)",
+    "type": "headers",
+    "value": "nagios"
+  },
+  {
+    "class": "运维管理",
+    "name": "Harbor",
+    "rule": "(<div class=\"spinner spinner-lg app-loading\">)",
+    "type": "code",
+    "value": "harbor"
+  },
+  {
+    "class": "运维管理",
+    "name": "Hadoop",
+    "rule": "(/cluster)",
+    "type": "headers",
+    "value": "hadoop"
+  },
+  {
+    "class": "运维管理",
+    "name": "Hadoop",
+    "rule": "(/cluster/app/application|class=\"navbar-brand\">Hadoop|<img src=\"/static/hadoop-st.png\">)",
+    "type": "code",
+    "value": "hadoop"
+  },
+  {
+    "class": "运维管理",
+    "name": "Hadoop Administration",
+    "rule": "(Hadoop Administration)",
+    "type": "code",
+    "value": "hadoop"
+  },
+  {
+    "class": "运维管理",
+    "name": "Jira",
+    "rule": "(jira.webresources|icon-jira-logo)",
+    "type": "code",
+    "value": "jira"
+  },
+  {
+    "class": "运维管理",
+    "name": "JFrog",
+    "rule": "(jfrog-ui-essentials|/artifactory/|src=\"images/artifactory_logo)",
+    "type": "code",
+    "value": "jfrog"
+  },
+  {
+    "class": "运维管理",
+    "name": "XXL Job",
+    "rule": "(<a><b>XXL</b>JOB</a>|分布式任务调度平台XXL-JOB|xxl-job-admin)",
+    "type": "code",
+    "value": "xxljob"
+  },
+  {
+    "class": "运维管理",
+    "name": "VMware vSphere",
+    "rule": "(VMware vSphere)",
+    "type": "code",
+    "value": "vcenter"
+  },
+  {
+    "class": "运维管理",
+    "name": "浪潮 ClusterEngineV4.0",
+    "rule": "(<img src=\"../../assets/images/logo/tscelogo.png\">)",
+    "type": "code",
+    "value": "clusterengine"
+  },
+  {
+    "class": "运维管理",
+    "name": "浪潮 服务器",
+    "rule": "(inspur_logo.png\">)",
+    "type": "code",
+    "value": "inspur"
+  },
+  {
+    "class": "运维管理",
+    "name": "浪潮政务系统",
+    "rule": "(LangChao.ECGAP.OutPortal|OnlineQuery/QueryList.aspx)",
+    "type": "code",
+    "value": "inspur"
+  },
+  {
+    "class": "运维管理",
+    "name": "科来RAS",
+    "rule": "(科来软件 版权所有|i18ninit.min.js)",
+    "type": "code",
+    "value": "kelai"
+  },
+  {
+    "class": "运维管理",
+    "name": "会捷通云视讯平台",
+    "rule": "(him/api/rest/v1.0/node/role|him.app)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "运维管理",
+    "name": "汉王人脸考勤管理系统",
+    "rule": "(汉王人脸考勤管理系统|/Content/image/hanvan.png|/Content/image/hvicon.ico)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "运维管理",
+    "name": "亿赛通-电子文档安全管理系统",
+    "rule": "(电子文档安全管理系统|/CDGServer3/index.jsp|/CDGServer3/SysConfig.jsp|/CDGServer3/help/getEditionInfo.jsp)",
+    "type": "code",
+    "value": "esafenet"
+  },
+  {
+    "class": "运维管理",
+    "name": "中新金盾信息安全管理系统",
+    "rule": "(中新金盾信息安全管理系统|中新网络信息安全股份有限公司)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "运维管理",
+    "name": "好视通",
+    "rule": "(itunes.apple.com/us/app/id549407870|hao-shi-tong-yun-hui-yi-yuan)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "运维管理",
+    "name": "和信创天云桌面系统",
+    "rule": "(和信下一代云桌面VENGD|/vesystem/index.php)",
+    "type": "code",
+    "value": "hxct"
+  },
+  {
+    "class": "运维管理",
+    "name": "金山",
+    "rule": "(北京猎鹰安全科技有限公司|金山终端安全系统V9.0Web控制台|北京金山安全管理系统技术有限公司|金山V8)",
+    "type": "code",
+    "value": "wps"
+  },
+  {
+    "class": "运维管理",
+    "name": "F5 BIG-IP",
+    "rule": "(BigIP|BIGipServer)",
+    "type": "headers",
+    "value": "bigip"
+  },
+  {
+    "class": "运维管理",
+    "name": "Citrix-NetScaler",
+    "rule": "(NSC_TEMP=xyz)",
+    "type": "headers",
+    "value": "citrix"
+  },
+  {
+    "class": "运维管理",
+    "name": "Citrix-NetScaler",
+    "rule": "(class=\"_ctxstxt_NetscalerAAA\"|ns_login_link|/logon/themes/Default/resources)",
+    "type": "code",
+    "value": "citrix"
+  },
+  {
+    "class": "运维管理",
+    "name": "SecFox-运维安全管理与审计系统",
+    "rule": "(type=image/x-icon href=/../static/oem_image/company_logo.png)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "运维管理",
+    "name": "mua",
+    "rule": "(<title>mua</title>)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "运维管理",
+    "name": "VMware ESXi",
+    "rule": "(\" + ID_EESX_Welcome + \"\n)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "运维管理",
+    "name": "惠普-iLO 3",
+    "rule": "(iLO 3)",
+    "type": "code",
+    "value": "hpeilo4"
+  },
+  {
+    "class": "运维管理",
+    "name": "惠普-iLO 4",
+    "rule": "(iLO 4)",
+    "type": "code",
+    "value": "hpeilo4"
+  },
+  {
+    "class": "文件存储服务器",
+    "name": "MinIO",
+    "rule": "(content=\"MinIO)",
+    "type": "code",
+    "value": "minio"
+  },
+  {
+    "class": "运维管理",
+    "name": "CloudFlare",
+    "rule": "(cloudflare)",
+    "type": "headers",
+    "value": "waf"
+  },
+  {
+    "class": "运维管理",
+    "name": "Safe3",
+    "rule": "(Safe3WAF|Safe3 Web Firewall)",
+    "type": "headers",
+    "value": "waf"
+  },
+  {
+    "class": "运维管理",
+    "name": "安全狗",
+    "rule": "(404.safedog.cn/images/safedogsite/broswer_logo.jpg)",
+    "type": "code",
+    "value": "waf"
+  },
+  {
+    "class": "运维管理",
+    "name": "阿里云 Web应用防火墙",
+    "rule": "(<title>阿里云 Web应用防火墙</title>)",
+    "type": "code",
+    "value": "waf"
+  },
+  {
+    "class": "视频设备",
+    "name": "海康威视-网络摄像机",
+    "rule": "(Hikvision Digital Technology Co.|oWifi.bSupportWifiEnhance)",
+    "type": "code",
+    "value": "hikvision"
+  },
+  {
+    "class": "视频设备",
+    "name": "海康威视-iVMS安防集成平台",
+    "rule": "(iVMS-8300 安防集成平台|/ui/js/HikLY.js)",
+    "type": "code",
+    "value": "hikvision"
+  },
+  {
+    "class": "视频设备",
+    "name": "海康威视-安防综合集中监管平台",
+    "rule": "(综合安防集中监管平台|集中监控应用管理系统)",
+    "type": "code",
+    "value": "hikvision"
+  },
+  {
+    "class": "视频设备",
+    "name": "海康威视-网盘",
+    "rule": "(powered by 海康威视)",
+    "type": "code",
+    "value": "hikvision"
+  },
+  {
+    "class": "视频设备",
+    "name": "海康威视-安全接入网关",
+    "rule": "(/webui/images/basic/login/main_logo.gif)",
+    "type": "code",
+    "value": "hikvision"
+  },
+  {
+    "class": "视频设备",
+    "name": "海康威视-视频云",
+    "rule": "(oCheckUser.szUserName)",
+    "type": "code",
+    "value": "hikvision"
+  },
+  {
+    "class": "视频设备",
+    "name": "大华技术-视频监控",
+    "rule": "(jsBase/widget/css/skin.css|id=\"b_resetAll)",
+    "type": "code",
+    "value": "dahua"
+  },
+  {
+    "class": "视频设备",
+    "name": "大华技术-DSS",
+    "rule": "(content=\"1;URL='/admin')",
+    "type": "code",
+    "value": "dahua"
+  },
+  {
+    "class": "视频设备",
+    "name": "大华技术-智能交通终端管理设备",
+    "rule": "(<li class=\"J_lisecond J_width120\")",
+    "type": "code",
+    "value": "dahua"
+  },
+  {
+    "class": "视频设备",
+    "name": "大华技术-EVS服务器",
+    "rule": "(ng-controller=\"picSearchController)",
+    "type": "code",
+    "value": "dahua"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-网络录像机",
+    "rule": "(/Script/Public/Language.js.php|lang=H3CMPP.Lang.Index|Page/Login/)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-网络摄像机",
+    "rule": "(clientIpAddr)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-视频监控系统",
+    "rule": "(软件版本： VM2500-IMOS110-B3305P06)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-交通信号灯",
+    "rule": "(src = \"js/device_type.js)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-云眼",
+    "rule": "(css/cloudeye-landing.css)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-转码服务器配置管理系统",
+    "rule": "(转码服务器配置管理系统)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-综合安防应用平台",
+    "rule": "(综合安防应用平台)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-可视化报警管理平台",
+    "rule": "(VM8500-IMOS110-B3323)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-图像应用平台",
+    "rule": "(VMPS3|<a href=\"downloadCenter.php\">下载中心</a>)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "视频设备",
+    "name": "宇视科技-数据管理服务器",
+    "rule": "(/webui/switch.php)",
+    "type": "code",
+    "value": "uniview"
+  },
+  {
+    "class": "公安网设备",
+    "name": "AR实景指挥作战平台",
+    "rule": "(AR实景指挥作战平台)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "公安网设备",
+    "name": "公安图像应用平台",
+    "rule": "(公安图像应用平台)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "公安网设备",
+    "name": "枪械监测系统",
+    "rule": "(Copyright © 2018 北京凯乐比兴科技有限公司版权所有 V1.1.0)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "公安网设备",
+    "name": "翼宸智能机柜监控系统",
+    "rule": "(翼宸智能机柜监控系统)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "公安网设备",
+    "name": "以萨车辆图像警务大数据系统",
+    "rule": "(<title>登录-以萨车辆图像警务大数据系统</title>)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "扫描器",
+    "name": "[天防]视频网安全监测平台",
+    "rule": "(<img src=\"images/login/login_move.png)",
+    "type": "code",
+    "value": "tfsec"
+  },
+  {
+    "class": "视频设备",
+    "name": "IPC WEB控制端",
+    "rule": "(<title>IPC WEB控制端</title>)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "视频设备",
+    "name": "视频云结构化服务器",
+    "rule": "(视频云结构化服务器)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "视频设备",
+    "name": "智能监测控制器",
+    "rule": "(Embedthis-Appweb/3.4.2)",
+    "type": "header",
+    "value": "notag"
+  },
+  {
+    "class": "打印机",
+    "name": "惠普打印机",
+    "rule": "(Virata-EmWeb/R6_2_1)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "WebAPP",
+    "name": "源码泄露账号密码 F12查看",
+    "rule": "(get_dkey_passwd)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "堡垒机",
+    "name": "TELEPORT堡垒机",
+    "rule": "(/static/plugins/blur/background-blur.js)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "堡垒机",
+    "name": "齐治堡垒机",
+    "rule": "(rsfc_token|integrity=\"sha384)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "堡垒机",
+    "name": "JumpServer",
+    "rule": "(JumpServer)",
+    "type": "code",
+    "value": "jumpserver"
+  },
+  {
+    "class": "网络设备",
+    "name": "华为-SMC",
+    "rule": "(Script/SmcScript.js?version=)",
+    "type": "code",
+    "value": "huawei"
+  },
+  {
+    "class": "网络设备",
+    "name": "华为-IBMC",
+    "rule": "(/bmc/resources/images/product/img_01.png|src=\"./bmc/resources/images/cmn/logo.jpg\")",
+    "type": "code",
+    "value": "huawei"
+  },
+  {
+    "class": "网络设备",
+    "name": "华为-交换机",
+    "rule": "(class=\"log_logo\"><img src=\"../img/infromation_img/logo.gif)",
+    "type": "code",
+    "value": "huawei"
+  },
+  {
+    "class": "网络设备",
+    "name": "华为-IPC",
+    "rule": "(HUAWEI IPC|if(event.keyCode)",
+    "type": "code",
+    "value": "huawei"
+  },
+  {
+    "class": "网络设备",
+    "name": "华为-SDC",
+    "rule": "(resources/default/images/login/loginbg.png)",
+    "type": "code",
+    "value": "huawei"
+  },
+  {
+    "class": "网络设备",
+    "name": "华为-LAN Switch",
+    "rule": "(src=\"../style/default/image/loginC.png)",
+    "type": "code",
+    "value": "huawei"
+  },
+  {
+    "class": "网络设备",
+    "name": "合众视频安全交换接入系统",
+    "rule": "(合众视频安全交换接入系统)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "网络设备",
+    "name": "视频安全接入用户认证系统",
+    "rule": "(视频安全接入用户认证系统)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "网络设备",
+    "name": "合众数据交换控制平台",
+    "rule": "(合众数据交换控制平台)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "边界设备",
+    "name": "边界接入巡检管理系统",
+    "rule": "(边界接入巡检管理系统)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "网络设备",
+    "name": "请求服务系统登录",
+    "rule": "(请求服务系统登录)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "网络设备",
+    "name": "集中监控管理系统",
+    "rule": "(集中监控管理系统)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "网络设备",
+    "name": "安全数据交换系统",
+    "rule": "(安全数据交换系统)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "网络设备",
+    "name": "单向光闸",
+    "rule": "(单向光闸)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "网络设备",
+    "name": "合众日志采集软件",
+    "rule": "(合众日志采集软件)",
+    "type": "code",
+    "value": "hezhong"
+  },
+  {
+    "class": "边界设备",
+    "name": "启明星辰防火墙",
+    "rule": "(/cgi-bin/webui?op=get_product_model)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "天阗工控安全监测与审计系统",
+    "rule": "(天阗工控安全监测与审计系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "网御高级持续性威胁检测与管理系统",
+    "rule": "(网御高级持续性威胁检测与管理系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "天清WEB应用安全网关",
+    "rule": "(天清)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "高级持续性威胁检测与管理系统",
+    "rule": "(威胁分析一体机)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "网御Web应用安全防护系统",
+    "rule": "(网御Web应用安全防护系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "边界设备",
+    "name": "网御VPN",
+    "rule": "(vpn/Common/js/leadsec.js|/vpn/user/Common/custom/auth_home.css)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "边界设备",
+    "name": "天清汉马VPN",
+    "rule": "(/vpn/Common/js/jquery.sslvpn.js)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "天玥网络安全审计系统",
+    "rule": "(天玥网络安全审计系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "异常流量清洗系统(新版本)",
+    "rule": "(天清异常流量管理与抗拒绝服务系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "天玥运维安全网关",
+    "rule": "(天玥运维安全网关)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "网御web应用检测系统",
+    "rule": "(网御web应用检测系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "天镜网络非法接入检查系统",
+    "rule": "(天镜脆弱性扫描与管理系统V6.0 网络非法接入检查专版)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "网站监测平台",
+    "rule": "(网站监测平台)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "网御IPS集中管理中心",
+    "rule": "(logonprocess.action)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "边界设备",
+    "name": "网御工业防火墙(IFW-3000)",
+    "rule": "(北京网御星云信息技术有限公司 工业防火墙)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "天清汉马USG-P安全网关",
+    "rule": "(../js/jquery/jsencrypt.min.js)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "FlowEye安全域流监控系统",
+    "rule": "(FlowEye安全域流监控系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "视频安全防护系统（VSG）大屏展示",
+    "rule": "(大屏展示中心)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "网御WAF集中管理中心",
+    "rule": "(网御WAF)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "天清Web应用安全网关网页防篡改系统",
+    "rule": "(天清Web应用安全网关网页防篡改系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "网御web应用安全防护系统",
+    "rule": "(网御web应用安全防护系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "天阗TAR",
+    "rule": "(CyberSensor|威胁分析一体机)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "网络设备",
+    "name": "网御APT",
+    "rule": "(网御高级持续性威胁检测与管理系统)",
+    "type": "code",
+    "value": "venus"
+  },
+  {
+    "class": "安全设备",
+    "name": "网御入侵检测系统V3.2",
+    "rule": "(网御入侵检测系统V3.2)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟远程安全评估系统",
+    "rule": "(/media/stylesheet/nsfocus_2012/images/logo/login_logo_rsas_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟安全审计系统堡垒机 SAS",
+    "rule": "(/stylesheet/login/images/login-title.png2)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟安全审计系统 SAS",
+    "rule": "(/stylesheet/nsfocus_2012/images/logo/login_logo_sas_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "边界设备",
+    "name": "绿盟下一代防火墙 NF",
+    "rule": "(/stylesheet/iceye/images/logo/login_logo_nf_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟统一身份认证平台 UIP",
+    "rule": "(/img/login_logo_auth_zh_CN.jpg|用户认证 - NSFOCUS NF)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟邮件安全网关 SEG",
+    "rule": "(/stylesheet/images/login/login_logo.png|SEG NSFOCUS)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟抗拒绝服务系统 ADS",
+    "rule": "(/stylesheet/nsfocus_2009/images/logo/login_logo_ads_en_US.png|NSFOCUS ADS)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟远程安全评估系统 RSAS",
+    "rule": "(/media/stylesheet/nsfocus_2012/images/logo/login_logo_rsas_zh_CN.png|NSFOCUS RSAS)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟网络入侵防护系统 NIPS",
+    "rule": "(stylesheet/nsfocus_2012/images/logo/login_logo_nips_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟网络入侵检测系统 NIDS",
+    "rule": "(/stylesheet/nsfocus_2012/images/logo/login_logo_nids_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟互联网威胁检测系统 TDC",
+    "rule": "(/stylesheet/nsfocus_2012/images/logo/login_logo_tdc_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟web防护应用系统 WAF",
+    "rule": "(/stylesheet/nsfocus_2012/images/logo/login_logo_waf2_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟安全配置核查系统 BVS",
+    "rule": "(/media/stylesheet/nsfocus_2012/images/logo/login_logo_bvs_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟数据库审计系统 DAS",
+    "rule": "(nsfocus/css/tab_simple.css|NSFOCUS DAS)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟敏感数据发现与风险评估系统 IDR",
+    "rule": "(/media/UI3.0/css/login_iscat.css)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟等保工具箱非法外联信息展示",
+    "rule": "(绿盟等保工具箱非法外联信息展示)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "云安全集中管理系统 NCSS",
+    "rule": "(styles.ba9cfe607703704e053c.css|绿盟云安全集中管理系统)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟企业安全中心系统 ESPC",
+    "rule": "(/resource/v1.0.1/stylesheet/images/logo/login_logo_espc_zh_CN.png|绿盟企业安全中心)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟安全认证网关 SAG",
+    "rule": "(styles.ed82806eaa4b1f6c3a24.bundle.css|assets/image/sag.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟综合威胁探针 UTS",
+    "rule": "(UTS 综合威胁探)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "网络设备",
+    "name": "绿盟网站安全监测系统 WSM",
+    "rule": "(/medias/stylesheet//nsfocus_2009/images/logo/login_logo_wsm_zh_CN.png)",
+    "type": "code",
+    "value": "nsfocus"
+  },
+  {
+    "class": "边界设备",
+    "name": "天融信防火墙",
+    "rule": "(/cgi/maincgi.cg)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信日志收集与分析系统",
+    "rule": "(天融信日志收集与分析系统)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信网络审计系统",
+    "rule": "(onclick=dlg_download)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信脆弱性扫描与管理系统",
+    "rule": "(/js/report/horizontalReportPanel.js)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信入侵防御系统",
+    "rule": "(天融信入侵防御系统)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "边界设备",
+    "name": "天融信VPN",
+    "rule": "(vone/pub/Common/css/sv_login_style_ie9.css)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信认证客户端",
+    "rule": "(BODY leftmargin=\"0\" topmargin=\"0\" onbeforeunload=\"closeDep()\")",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信Web应用安全防护系统",
+    "rule": "(WEB应用安全防护系统|<META NAME=\"Copyright\" CONTENT=\"Topsec Network Security Technology Co.,Ltd\"/>\",\"<META NAME=\"DESCRIPTION\" CONTENT=\"Topsec web UI\"/>)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信入侵检测系统TopSentry",
+    "rule": "(天融信入侵检测系统TopSentry)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信入侵防御系统V3",
+    "rule": "(天融信入侵防御系统V3)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信病毒网关系统",
+    "rule": "(var theform = document.forms[\"theForm\"]; theForm.username.focus();)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信负载均衡系统TopAPP",
+    "rule": "(TopAPP负载均衡系统)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信负载均衡系统TopApp-LB",
+    "rule": "(TopApp-LB 负载均衡系统)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信接入网关系统",
+    "rule": "(天融信接入网关系统)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "网络设备",
+    "name": "天融信数据防泄漏系统",
+    "rule": "(天融信数据防泄漏系统|天融信 - Tria)",
+    "type": "code",
+    "value": "topsec"
+  },
+  {
+    "class": "边界设备",
+    "name": "深信服VPN",
+    "rule": "(login_psw.csp|loginPageSP/loginPrivacy.js)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服上网行为管理",
+    "rule": "(utccjfaewjb)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服应用交付报表系统",
+    "rule": "(report/js/prng4.js|/reportCenter/index.php|cls_mode=cluster_mode_others)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服WAF",
+    "rule": "(commonFunction.js)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "边界设备",
+    "name": "深信服防火墙NGAF",
+    "rule": "(SANGFOR FW)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服虚拟化管理平台",
+    "rule": "(home/mod-login/img/icon-title-adesk.png)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服数据中心",
+    "rule": "(SANGFOR 数据中心|src/images/login/product_logo.png)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服基线核查系统",
+    "rule": "(SMC/images/login/login-bg2.jpg)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服安全隔离与交换系统",
+    "rule": "(Common/slg/img/product_logo.png)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服一体化网关MIG",
+    "rule": "(一体化网关MIG)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服行为感知系统",
+    "rule": "(isHighPerformance : !!SFIsHighPerformance)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "深信服安全隔离与信息单向导入系统",
+    "rule": "(深信服安全隔离与信息单向导入系统)",
+    "type": "code",
+    "value": "sangfor"
+  },
+  {
+    "class": "网络设备",
+    "name": "明御安全网关",
+    "rule": "(明御安全网关)",
+    "type": "code",
+    "value": "das"
+  },
+  {
+    "class": "网络设备",
+    "name": "明御APT攻击（网络战）预警平台",
+    "rule": "(明御APT攻击（网络战）预警平台)",
+    "type": "code",
+    "value": "das"
+  },
+  {
+    "class": "网络设备",
+    "name": "天鉴流量监测引擎",
+    "rule": "(天鉴流量监测引擎)",
+    "type": "code",
+    "value": "das"
+  },
+  {
+    "class": "网络设备",
+    "name": "网站安全检测平台",
+    "rule": "(loadoem|path=login-logo.png)",
+    "type": "code",
+    "value": "das"
+  },
+  {
+    "class": "网络设备",
+    "name": "明御 运维审计与风险控制系统",
+    "rule": "(明御 运维审计与风险控制系统)",
+    "type": "code",
+    "value": "das"
+  },
+  {
+    "class": "边界设备",
+    "name": "明御WEB应用防火墙",
+    "rule": "(/images/waf-v.png)",
+    "type": "code",
+    "value": "das"
+  },
+  {
+    "class": "网络设备",
+    "name": "明御综合日志审计平台",
+    "rule": "(明御综合日志审计平台)",
+    "type": "code",
+    "value": "das"
+  },
+  {
+    "class": "网络设备",
+    "name": "明御数据库审计与风险控制系统",
+    "rule": "(明御数据库审计与风险控制系统)",
+    "type": "code",
+    "value": "das"
+  },
+  {
+    "class": "网络设备",
+    "name": "态势感知与安全运营平台",
+    "rule": "(nsgoc)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "边界设备",
+    "name": "奇安信网神防火墙",
+    "rule": "(奇安信网神防火墙系统|css/lsec/login.css)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信统一认证平台",
+    "rule": "(奇安信统一认证平台)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "边界设备",
+    "name": "奇安信VPN",
+    "rule": "(奇安信VPN)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信新天擎",
+    "rule": "(奇安信新天擎)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神分析平台",
+    "rule": "(奇安信网神分析平台)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神TrustSpace安全工作空间平台",
+    "rule": "(TrustSpace管理中心)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神网络数据传感器",
+    "rule": "(奇安信网神网络数据传感器)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信天眼下一代威胁感知系统(天眼)",
+    "rule": "(奇安信网神全流量威胁发现系统|奇安信天眼分析平台)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神SecFox日志收集与分析系统",
+    "rule": "(<p>欢迎您使用网神Secfox日志收集与分析系统)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神代码卫士系统",
+    "rule": "(奇安信网神代码卫士系统)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神行为感知分析系统",
+    "rule": "(行为感知分析系统-奇安信)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信全球鹰网站云检测系统",
+    "rule": "(奇安信网站云监测)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神安全网络路由网关",
+    "rule": "(奇安信网神安全网络路由网关)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神上网行为管理与审计系统",
+    "rule": "(奇安信网神上网行为管理与审计系统)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神互联网接入口检测器系统",
+    "rule": "(占位置)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神资产管理系统",
+    "rule": "(奇安信网神资产管理系统)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信移动应用自防护系统",
+    "rule": "(MIAP管理中心)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "天机移动终端安全管理系统",
+    "rule": "(奇安信天机管理中心|TrustSpace管理中心)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "边界设备",
+    "name": "网神VPN安全网关系统",
+    "rule": "(网神VPN安全网关系统)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信代码卫士",
+    "rule": "(奇安信代码卫士)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信网神安全网络管控平台",
+    "rule": "(奇安信网神安全网络管控平台)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "奇安信威胁分析系统",
+    "rule": "(奇安信威胁分析系统)",
+    "type": "code",
+    "value": "qax"
+  },
+  {
+    "class": "网络设备",
+    "name": "浪潮服务器管理系统",
+    "rule": "(ng-src=\"img/inspur_logo.png\")",
+    "type": "code",
+    "value": "inspur"
+  },
+  {
+    "class": "网络设备",
+    "name": "浪潮服务器管理系统",
+    "rule": "(GoAhead-Webs)",
+    "type": "header",
+    "value": "inspur"
+  },
+  {
+    "class": "文件存储服务器",
+    "name": "浪潮存储管理系统",
+    "rule": "(<title>InStorage</title>)",
+    "type": "code",
+    "value": "inspur"
+  },
+  {
+    "class": "物联网设备",
+    "name": "有人物联网",
+    "rule": "(realm=\"USR-TCP232-304\")",
+    "type": "header",
+    "value": "usr"
+  },
+  {
+    "class": "物联网设备",
+    "name": "有人物联网",
+    "rule": "(realm=\"S2E\")",
+    "type": "header",
+    "value": "usr"
+  },
+  {
+    "class": "物联网设备",
+    "name": "串口服务器",
+    "rule": "(realm= \"Embedded WEB Server\")",
+    "type": "header",
+    "value": "notag"
+  },
+  {
+    "class": "物联网设备",
+    "name": "串口服务器",
+    "rule": "(Keil-EWEB/2.1)",
+    "type": "header",
+    "value": "notag"
+  },
+  {
+    "class": "物联网设备",
+    "name": "三旺通信-串口服务器",
+    "rule": "(realm=\"Managed Switch\")",
+    "type": "header",
+    "value": "notag"
+  },
+  {
+    "class": "物联网设备",
+    "name": "4G LTE",
+    "rule": "(PasteWSGIServer/0.5 Python/2.7.11)",
+    "type": "header",
+    "value": "notag"
+  },
+  {
+    "class": "其他设备",
+    "name": "gSOAP服务",
+    "rule": "(gSOAP/2.7|gSOAP/2.8)",
+    "type": "header",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "Covond交换机",
+    "rule": "(realm=\"Covond \")",
+    "type": "header",
+    "value": "usr"
+  },
+  {
+    "class": "网络设备",
+    "name": "TP-Link 3600 DD-WRT",
+    "rule": "(TP-Link 3600 DD-WRT)",
+    "type": "code",
+    "value": "tplink"
+  },
+  {
+    "class": "网络设备",
+    "name": "TP-Link 路由器",
+    "rule": "(TP-LINK HTTPD)",
+    "type": "header",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "TL-WDR7620路由器",
+    "rule": "(TL-WDR7620)",
+    "type": "code",
+    "value": "tplink"
+  },
+  {
+    "class": "网络设备",
+    "name": "360家庭防火墙",
+    "rule": "(360家庭防火墙|/login_pc.htm)",
+    "type": "code",
+    "value": "360route"
+  },
+  {
+    "class": "网络设备",
+    "name": "TOTOLink路由器",
+    "rule": "(window.location.href=\"/home.asp\")",
+    "type": "code",
+    "value": "totolink"
+  },
+  {
+    "class": "网络设备",
+    "name": "开站工具",
+    "rule": "(/static/css/app.f29a3a8cbe82c59f9757a4c54f748a52.css|开站工具)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "火星舱系统管理",
+    "rule": "(火星舱系统管理)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "边界设备",
+    "name": "CISCO VPN",
+    "rule": "(webvpn)",
+    "type": "headers",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "锐捷产品（Ruijie）",
+    "rule": "(4008 111 000|static/img/title.ico|support.ruijie.com.cn|Ruijie - NBR|eg.login.loginBtn)",
+    "type": "code",
+    "value": "ruijie"
+  },
+  {
+    "class": "边界设备",
+    "name": "H3C路由器",
+    "rule": "(H3C-Miniware-Webs)",
+    "type": "headers",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "H3C产品",
+    "rule": "(service@h3c.com)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "H3C 运维审计系统",
+    "rule": "(H3C Technologies Co|class=\"product-name\"><span>H3C SecPath 运维审计系统</span>)",
+    "type": "code",
+    "value": "h3csecpath"
+  },
+  {
+    "class": "网络设备",
+    "name": "帕拉迪统一安全管理和综合审计系统",
+    "rule": "(module/image/pldsec.css)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "蓝盾BDWebGuard",
+    "rule": "(BACKGROUND: url(images/loginbg.jpg) #e5f1fc)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "数据库",
+    "name": "Oracle-Integrated-Lights-Out-Manager",
+    "rule": "(Oracle-ILOM-Web-Server/1.0)",
+    "type": "header",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "GPStor GUI",
+    "rule": "(<title>GPStor GUI</title>)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "Hongxin-IBMC",
+    "rule": "(<title>iBMC</title>)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "网络设备",
+    "name": "梅林路由器（刷固件）",
+    "rule": "(href=\"/cgi-bin/luci\">LuCI)",
+    "type": "code",
+    "value": "notag"
+  },
+  {
+    "class": "应用系统",
+    "name": "JAVA网站",
+    "rule": "(JSESSION=)",
+    "type": "header",
+    "value": "java"
+  },
+  {
+    "class": "应用系统",
+    "name": "PHP网站",
+    "rule": "(PHPSESSION=)",
+    "type": "header",
+    "value": "php"
+  }
+]

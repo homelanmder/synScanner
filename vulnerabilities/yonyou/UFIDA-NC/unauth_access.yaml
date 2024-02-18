@@ -1,0 +1,25 @@
+id: YongYou-UnAuthAccess
+
+info:
+  name: 用友NC(YONYOU) - 未授权访问
+  author: wintry
+  severity: critical
+  description: YONYOU用友 UFIDA-NC未授权访问,可上传文件.
+  tags: yonyounc
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/service/~iufo/com.ufida.web.action.ActionServlet?action=nc.ui.iufo.release.InfoReleaseAction&method=createBBSRelease&TreeSelectedID=&TableSelectedID="
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "发布说明"
+          - "附件"
+          
+        condition: and
+      - type: status
+        status:
+          - 200

