@@ -27,6 +27,9 @@ func main() {
 		flag.Usage()
 		return
 	}
+	if common.InteractIp == "" {
+		common.InteractIp = common.LocalIp
+	}
 	common.HttpClient = &fasthttp.Client{
 		ReadTimeout:                   time.Duration(common.Timeout) * time.Second,
 		WriteTimeout:                  time.Duration(common.Timeout) * time.Second,
