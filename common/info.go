@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/valyala/fasthttp"
 	"github.com/homelanmder/synScanner/pkg/protocols/common/protocolstate"
+	"github.com/valyala/fasthttp"
 	"net"
 	"regexp"
 	"time"
@@ -29,6 +29,7 @@ var (
 	Timeout                int
 	Thread                 int
 	LocalPort              int
+	InteractIp             string
 	HttpClient             *fasthttp.Client
 	FastDialer, _          = protocolstate.GetDialer()
 	LocalIp                string

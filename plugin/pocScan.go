@@ -129,7 +129,7 @@ func replaceVar(hostInfo *common.HostInfo, data []byte, executorOpts protocols.E
 		Url:         hostInfo.Url,
 	}
 	d, _ := json.Marshal(p)
-	payload := strings.ReplaceAll(string(data), "{{interactsh}}", fmt.Sprintf("%s:%d", common.LocalIp, common.LocalPort))
+	payload := strings.ReplaceAll(string(data), "{{interactsh}}", fmt.Sprintf("%s:%d", common.InteractIp, common.LocalPort))
 	payload = strings.ReplaceAll(payload, "{{header}}", base64.StdEncoding.EncodeToString(d))
 	payload = strings.ReplaceAll(payload, "{{body}}", url.QueryEscape(base64.StdEncoding.EncodeToString(d)))
 	payload = strings.ReplaceAll(payload, "{{url}}", url.QueryEscape(base64.StdEncoding.EncodeToString(d)))
