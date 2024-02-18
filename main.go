@@ -21,7 +21,7 @@ func main() {
 	flag.IntVar(&common.Timeout, "timeout", 3, "指定超时时间")
 	flag.StringVar(&common.TaskName, "task", "", "指定任务名")
 	flag.IntVar(&common.LocalPort, "lp", 8888, "指定本地端口")
-	flag.StringVar(&common.InteractIp, "inp", "", "指定回连地址")
+	flag.StringVar(&common.InteractIp, "in", "", "指定回连地址")
 	flag.Parse()
 	if ips == "" {
 		flag.Usage()
