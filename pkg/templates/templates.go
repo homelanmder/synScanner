@@ -3,22 +3,22 @@ package templates
 
 import (
 	"encoding/json"
-	"github.com/homelanmder/synScanner/pkg/protocols"
+	"line/pkg/protocols"
 
 	validate "github.com/go-playground/validator/v10"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	"go.uber.org/multierr"
 	"gopkg.in/yaml.v2"
-	"github.com/homelanmder/synScanner/pkg/model"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/variables"
-	"github.com/homelanmder/synScanner/pkg/protocols/dns"
-	"github.com/homelanmder/synScanner/pkg/protocols/file"
-	"github.com/homelanmder/synScanner/pkg/protocols/http"
-	"github.com/homelanmder/synScanner/pkg/protocols/network"
-	"github.com/homelanmder/synScanner/pkg/protocols/ssl"
-	"github.com/homelanmder/synScanner/pkg/protocols/websocket"
-	"github.com/homelanmder/synScanner/pkg/protocols/whois"
-	"github.com/homelanmder/synScanner/pkg/templates/types"
+	"line/pkg/model"
+	"line/pkg/protocols/common/variables"
+	"line/pkg/protocols/dns"
+	"line/pkg/protocols/file"
+	"line/pkg/protocols/http"
+	"line/pkg/protocols/network"
+	"line/pkg/protocols/ssl"
+	"line/pkg/protocols/websocket"
+	//"line/pkg/protocols/whois"
+	"line/pkg/templates/types"
 )
 
 // Template is a YAML input file which defines all the requests and
@@ -85,7 +85,7 @@ type Template struct {
 
 	// description: |
 	//   WHOIS contains the WHOIS request to make in the template.
-	RequestsWHOIS []*whois.Request `yaml:"whois,omitempty" json:"whois,omitempty" jsonschema:"title=whois requests to make,description=WHOIS requests to make for the template"`
+	//RequestsWHOIS []*whois.Request `yaml:"whois,omitempty" json:"whois,omitempty" jsonschema:"title=whois requests to make,description=WHOIS requests to make for the template"`
 	// description: |
 	// description: |
 	//   Self Contained marks Requests for the template as self-contained
@@ -147,8 +147,8 @@ func (template *Template) Type() types.ProtocolType {
 		return types.SSLProtocol
 	case len(template.RequestsWebsocket) > 0:
 		return types.WebsocketProtocol
-	case len(template.RequestsWHOIS) > 0:
-		return types.WHOISProtocol
+	//case len(template.RequestsWHOIS) > 0:
+	//	return types.WHOISProtocol
 	default:
 		return types.InvalidProtocol
 	}

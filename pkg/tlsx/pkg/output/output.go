@@ -10,7 +10,7 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 	"github.com/logrusorgru/aurora"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
+	"line/pkg/tlsx/pkg/tlsx/clients"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	"golang.org/x/exp/maps"
 )

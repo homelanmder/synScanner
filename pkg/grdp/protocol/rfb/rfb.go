@@ -12,9 +12,9 @@ import (
 
 	"github.com/lunixbochs/struc"
 
-	"github.com/homelanmder/synScanner/pkg/grdp/core"
-	"github.com/homelanmder/synScanner/pkg/grdp/emission"
-	"github.com/homelanmder/synScanner/pkg/grdp/glog"
+	"line/pkg/grdp/core"
+	"line/pkg/grdp/emission"
+	"line/pkg/grdp/glog"
 )
 
 // ProtocolVersion

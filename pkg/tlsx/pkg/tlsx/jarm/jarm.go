@@ -8,8 +8,8 @@ import (
 	"time"
 
 	gojarm "github.com/hdm/jarm-go"
-	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/connpool"
+	"line/pkg/fastdialer/fastdialer"
+	"line/pkg/tlsx/pkg/connpool"
 )
 
 const poolCount = 3

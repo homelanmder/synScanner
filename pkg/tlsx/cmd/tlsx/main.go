@@ -6,9 +6,9 @@ import (
 
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
-	"github.com/homelanmder/synScanner/pkg/tlsx/internal/runner"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/openssl"
+	"line/pkg/tlsx/internal/runner"
+	"line/pkg/tlsx/pkg/tlsx/clients"
+	"line/pkg/tlsx/pkg/tlsx/openssl"
 	errorutils "github.com/projectdiscovery/utils/errors"
 )
 

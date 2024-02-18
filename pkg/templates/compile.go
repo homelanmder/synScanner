@@ -10,12 +10,12 @@ import (
 
 	"github.com/projectdiscovery/retryablehttp-go"
 	stringsutil "github.com/projectdiscovery/utils/strings"
-	"github.com/homelanmder/synScanner/pkg/operators"
-	"github.com/homelanmder/synScanner/pkg/protocols"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/executer"
-	"github.com/homelanmder/synScanner/pkg/protocols/offlinehttp"
-	"github.com/homelanmder/synScanner/pkg/templates/cache"
-	"github.com/homelanmder/synScanner/pkg/utils"
+	"line/pkg/operators"
+	"line/pkg/protocols"
+	"line/pkg/protocols/common/executer"
+	"line/pkg/protocols/offlinehttp"
+	"line/pkg/templates/cache"
+	"line/pkg/utils"
 )
 
 var (
@@ -95,8 +95,8 @@ func (template *Template) Requests() int {
 		len(template.RequestsFile) +
 		len(template.RequestsNetwork) +
 		len(template.RequestsSSL) +
-		len(template.RequestsWebsocket) +
-		len(template.RequestsWHOIS)
+		len(template.RequestsWebsocket)
+	//len(template.RequestsWHOIS)
 }
 
 // compileProtocolRequests compiles all the protocol requests for the template
@@ -131,9 +131,9 @@ func (template *Template) compileProtocolRequests(options protocols.ExecutorOpti
 	if len(template.RequestsWebsocket) > 0 {
 		requests = append(requests, template.convertRequestToProtocolsRequest(template.RequestsWebsocket)...)
 	}
-	if len(template.RequestsWHOIS) > 0 {
-		requests = append(requests, template.convertRequestToProtocolsRequest(template.RequestsWHOIS)...)
-	}
+	//if len(template.RequestsWHOIS) > 0 {
+	//	requests = append(requests, template.convertRequestToProtocolsRequest(template.RequestsWHOIS)...)
+	//}
 	template.Executer = executer.NewExecuter(requests, &options)
 	return nil
 }

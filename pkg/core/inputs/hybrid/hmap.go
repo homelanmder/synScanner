@@ -15,8 +15,8 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/homelanmder/synScanner/pkg/hmap/filekv"
-	"github.com/homelanmder/synScanner/pkg/hmap/store/hybrid"
+	"line/pkg/hmap/filekv"
+	"line/pkg/hmap/store/hybrid"
 	"github.com/projectdiscovery/mapcidr"
 	"github.com/projectdiscovery/mapcidr/asn"
 	uncoverlib "github.com/projectdiscovery/uncover"
@@ -25,9 +25,9 @@ import (
 	readerutil "github.com/projectdiscovery/utils/reader"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 	urlutil "github.com/projectdiscovery/utils/url"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/uncover"
-	"github.com/homelanmder/synScanner/pkg/types"
+	"line/pkg/protocols/common/contextargs"
+	"line/pkg/protocols/common/uncover"
+	"line/pkg/types"
 )
 
 const DefaultMaxDedupeItemsCount = 10000

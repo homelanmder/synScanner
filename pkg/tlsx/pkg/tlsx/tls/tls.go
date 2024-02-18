@@ -10,10 +10,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
+	"line/pkg/fastdialer/fastdialer"
 	"github.com/projectdiscovery/gologger"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/output/stats"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
+	"line/pkg/tlsx/pkg/output/stats"
+	"line/pkg/tlsx/pkg/tlsx/clients"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	iputil "github.com/projectdiscovery/utils/ip"
 	stringsutil "github.com/projectdiscovery/utils/strings"

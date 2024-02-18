@@ -1,8 +1,8 @@
 package http
 
 import (
-	"github.com/homelanmder/synScanner/pkg/protocols"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
+	"line/pkg/protocols"
+	"line/pkg/protocols/common/generators"
 )
 
 // requestGenerator generates requests sequentially based on various

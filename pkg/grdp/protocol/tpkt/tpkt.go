@@ -5,10 +5,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/homelanmder/synScanner/pkg/grdp/core"
-	"github.com/homelanmder/synScanner/pkg/grdp/emission"
-	"github.com/homelanmder/synScanner/pkg/grdp/glog"
-	"github.com/homelanmder/synScanner/pkg/grdp/protocol/nla"
+	"line/pkg/grdp/core"
+	"line/pkg/grdp/emission"
+	"line/pkg/grdp/glog"
+	"line/pkg/grdp/protocol/nla"
 )
 
 // take idea from https://github.com/Madnikulin50/gordp

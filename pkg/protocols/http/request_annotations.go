@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
+	"line/pkg/fastdialer/fastdialer"
 	"github.com/projectdiscovery/retryablehttp-go"
 	iputil "github.com/projectdiscovery/utils/ip"
 	stringsutil "github.com/projectdiscovery/utils/strings"

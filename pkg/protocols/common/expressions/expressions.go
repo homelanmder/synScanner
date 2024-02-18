@@ -5,9 +5,9 @@ import (
 
 	"github.com/Knetic/govaluate"
 
-	"github.com/homelanmder/synScanner/pkg/operators/common/dsl"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/marker"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/replacer"
+	"line/pkg/operators/common/dsl"
+	"line/pkg/protocols/common/marker"
+	"line/pkg/protocols/common/replacer"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 

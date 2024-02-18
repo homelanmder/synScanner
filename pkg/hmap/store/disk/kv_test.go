@@ -9,7 +9,7 @@ import (
 	fileutil "github.com/projectdiscovery/utils/file"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 	"github.com/stretchr/testify/require"
-	"github.com/homelanmder/synScanner/pkg/hmap/filekv"
+	"line/pkg/hmap/filekv"
 )
 
 func TestKV(t *testing.T) {

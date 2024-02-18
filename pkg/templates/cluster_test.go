@@ -3,8 +3,8 @@ package templates
 import (
 	"testing"
 
-	"github.com/homelanmder/synScanner/pkg/protocols/dns"
-	"github.com/homelanmder/synScanner/pkg/protocols/http"
+	"line/pkg/protocols/dns"
+	"line/pkg/protocols/http"
 	"github.com/stretchr/testify/require"
 )
 

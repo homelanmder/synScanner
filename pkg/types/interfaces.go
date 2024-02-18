@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"line/pkg/model/types/severity"
 )
 
 // JSONScalarToString converts an interface coming from json to string

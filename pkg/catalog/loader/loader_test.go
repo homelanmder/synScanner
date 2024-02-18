@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/homelanmder/synScanner/pkg/catalog/config"
-	"github.com/homelanmder/synScanner/pkg/catalog/disk"
+	"line/pkg/catalog/config"
+	"line/pkg/catalog/disk"
 	"github.com/stretchr/testify/require"
 )
 

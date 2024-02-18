@@ -1,9 +1,9 @@
 package auto
 
 import (
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/openssl"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/tls"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/ztls"
+	"line/pkg/tlsx/pkg/tlsx/openssl"
+	"line/pkg/tlsx/pkg/tlsx/tls"
+	"line/pkg/tlsx/pkg/tlsx/ztls"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 

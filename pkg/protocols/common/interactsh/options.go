@@ -5,8 +5,8 @@ import (
 
 	"github.com/projectdiscovery/interactsh/pkg/client"
 	"github.com/projectdiscovery/retryablehttp-go"
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/progress"
+	"line/pkg/output"
+	"line/pkg/progress"
 )
 
 // Options contains configuration options for interactsh nuclei integration.

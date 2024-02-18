@@ -6,11 +6,11 @@ import (
 
 	"github.com/remeh/sizedwaitgroup"
 
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
-	"github.com/homelanmder/synScanner/pkg/templates"
-	"github.com/homelanmder/synScanner/pkg/templates/types"
-	"github.com/homelanmder/synScanner/pkg/types/scanstrategy"
+	"line/pkg/output"
+	"line/pkg/protocols/common/contextargs"
+	"line/pkg/templates"
+	"line/pkg/templates/types"
+	"line/pkg/types/scanstrategy"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 

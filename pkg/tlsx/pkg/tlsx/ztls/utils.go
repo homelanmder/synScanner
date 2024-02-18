@@ -1,7 +1,7 @@
 package ztls
 
 import (
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
+	"line/pkg/tlsx/pkg/tlsx/clients"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	"github.com/zmap/zcrypto/tls"
 	"github.com/zmap/zcrypto/x509"

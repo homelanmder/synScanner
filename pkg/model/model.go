@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/homelanmder/synScanner/pkg/model/types/severity"
-	"github.com/homelanmder/synScanner/pkg/model/types/stringslice"
+	"line/pkg/model/types/severity"
+	"line/pkg/model/types/stringslice"
 )
 
 // Info contains metadata information about a template

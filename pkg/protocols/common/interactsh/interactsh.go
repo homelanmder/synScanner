@@ -18,10 +18,10 @@ import (
 	"github.com/projectdiscovery/interactsh/pkg/server"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	stringsutil "github.com/projectdiscovery/utils/strings"
-	"github.com/homelanmder/synScanner/pkg/operators"
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/helpers/responsehighlighter"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/helpers/writer"
+	"line/pkg/operators"
+	"line/pkg/output"
+	"line/pkg/protocols/common/helpers/responsehighlighter"
+	"line/pkg/protocols/common/helpers/writer"
 )
 
 // Client is a wrapped client for interactsh server.

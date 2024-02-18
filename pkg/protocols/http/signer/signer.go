@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/homelanmder/synScanner/pkg/types"
+	"line/pkg/types"
 )
 
 // An Argument that can be passed to Signer

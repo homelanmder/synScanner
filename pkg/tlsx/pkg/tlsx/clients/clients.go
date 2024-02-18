@@ -21,7 +21,7 @@ import (
 
 	zx509 "github.com/zmap/zcrypto/x509"
 
-	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
+	"line/pkg/fastdialer/fastdialer"
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/retryablehttp-go"

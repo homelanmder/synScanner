@@ -3,7 +3,7 @@ package core
 import (
 	"github.com/remeh/sizedwaitgroup"
 
-	"github.com/homelanmder/synScanner/pkg/templates/types"
+	"line/pkg/templates/types"
 )
 
 // WorkPool implements an execution pool for executing different

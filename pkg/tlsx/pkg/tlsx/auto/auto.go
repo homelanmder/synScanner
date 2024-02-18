@@ -5,11 +5,11 @@ package auto
 import (
 	"sync"
 
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/output/stats"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/openssl"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/tls"
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/ztls"
+	"line/pkg/tlsx/pkg/output/stats"
+	"line/pkg/tlsx/pkg/tlsx/clients"
+	"line/pkg/tlsx/pkg/tlsx/openssl"
+	"line/pkg/tlsx/pkg/tlsx/tls"
+	"line/pkg/tlsx/pkg/tlsx/ztls"
 	errorutils "github.com/projectdiscovery/utils/errors"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 	"go.uber.org/multierr"

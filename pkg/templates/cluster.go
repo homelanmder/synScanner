@@ -7,13 +7,13 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	cryptoutil "github.com/projectdiscovery/utils/crypto"
-	"github.com/homelanmder/synScanner/pkg/model"
-	"github.com/homelanmder/synScanner/pkg/operators"
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/protocols"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/helpers/writer"
-	"github.com/homelanmder/synScanner/pkg/templates/types"
+	"line/pkg/model"
+	"line/pkg/operators"
+	"line/pkg/output"
+	"line/pkg/protocols"
+	"line/pkg/protocols/common/contextargs"
+	"line/pkg/protocols/common/helpers/writer"
+	"line/pkg/templates/types"
 )
 
 // Cluster clusters a list of templates into a lesser number if possible based

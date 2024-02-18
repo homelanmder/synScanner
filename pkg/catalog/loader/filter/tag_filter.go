@@ -10,12 +10,12 @@ import (
 	"github.com/Knetic/govaluate"
 	"github.com/projectdiscovery/gologger"
 	sliceutil "github.com/projectdiscovery/utils/slice"
-	"github.com/homelanmder/synScanner/pkg/model/types/severity"
-	"github.com/homelanmder/synScanner/pkg/operators/common/dsl"
-	"github.com/homelanmder/synScanner/pkg/operators/extractors"
-	"github.com/homelanmder/synScanner/pkg/operators/matchers"
-	"github.com/homelanmder/synScanner/pkg/templates"
-	"github.com/homelanmder/synScanner/pkg/templates/types"
+	"line/pkg/model/types/severity"
+	"line/pkg/operators/common/dsl"
+	"line/pkg/operators/extractors"
+	"line/pkg/operators/matchers"
+	"line/pkg/templates"
+	"line/pkg/templates/types"
 )
 
 // TagFilter is used to filter nuclei templates for tag based execution
@@ -249,9 +249,9 @@ func tryCollectConditionsMatchinfo(template *templates.Template) map[string]inte
 	for _, req := range template.RequestsSSL {
 		matcherTypes = append(matcherTypes, collectMatcherTypes(req.Matchers)...)
 	}
-	for _, req := range template.RequestsWHOIS {
-		matcherTypes = append(matcherTypes, collectMatcherTypes(req.Matchers)...)
-	}
+	//for _, req := range template.RequestsWHOIS {
+	//	matcherTypes = append(matcherTypes, collectMatcherTypes(req.Matchers)...)
+	//}
 	for _, req := range template.RequestsWebsocket {
 		matcherTypes = append(matcherTypes, collectMatcherTypes(req.Matchers)...)
 	}
@@ -275,9 +275,9 @@ func tryCollectConditionsMatchinfo(template *templates.Template) map[string]inte
 	for _, req := range template.RequestsSSL {
 		extractorTypes = append(extractorTypes, collectExtractorTypes(req.Extractors)...)
 	}
-	for _, req := range template.RequestsWHOIS {
-		extractorTypes = append(extractorTypes, collectExtractorTypes(req.Extractors)...)
-	}
+	//for _, req := range template.RequestsWHOIS {
+	//	extractorTypes = append(extractorTypes, collectExtractorTypes(req.Extractors)...)
+	//}
 	for _, req := range template.RequestsWebsocket {
 		extractorTypes = append(extractorTypes, collectExtractorTypes(req.Extractors)...)
 	}

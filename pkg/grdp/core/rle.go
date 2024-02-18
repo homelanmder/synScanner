@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/homelanmder/synScanner/pkg/grdp/glog"
+	"line/pkg/grdp/glog"
 	"unsafe"
 )
 

@@ -565,7 +565,7 @@ func init() {
 	HTTPRequestDoc.Fields[22].Name = "unsafe"
 	HTTPRequestDoc.Fields[22].Type = "bool"
 	HTTPRequestDoc.Fields[22].Note = ""
-	HTTPRequestDoc.Fields[22].Description = "Unsafe specifies whether to use rawhttp engine for sending Non RFC-Compliant requests.\n\nThis uses the [rawhttp](https://github.com/homelanmder/synScanner/pkg/rawhttp) engine to achieve complete\ncontrol over the request, with no normalization performed by the client."
+	HTTPRequestDoc.Fields[22].Description = "Unsafe specifies whether to use rawhttp engine for sending Non RFC-Compliant requests.\n\nThis uses the [rawhttp](https://line/pkg/rawhttp) engine to achieve complete\ncontrol over the request, with no normalization performed by the client."
 	HTTPRequestDoc.Fields[22].Comments[encoder.LineComment] = "Unsafe specifies whether to use rawhttp engine for sending Non RFC-Compliant requests."
 	HTTPRequestDoc.Fields[23].Name = "race"
 	HTTPRequestDoc.Fields[23].Type = "bool"

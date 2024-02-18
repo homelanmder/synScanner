@@ -14,14 +14,14 @@ import (
 	"github.com/remeh/sizedwaitgroup"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/homelanmder/synScanner/pkg/operators"
-	"github.com/homelanmder/synScanner/pkg/operators/matchers"
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/protocols"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/helpers/eventcreator"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/helpers/responsehighlighter"
-	templateTypes "github.com/homelanmder/synScanner/pkg/templates/types"
+	"line/pkg/operators"
+	"line/pkg/operators/matchers"
+	"line/pkg/output"
+	"line/pkg/protocols"
+	"line/pkg/protocols/common/contextargs"
+	"line/pkg/protocols/common/helpers/eventcreator"
+	"line/pkg/protocols/common/helpers/responsehighlighter"
+	templateTypes "line/pkg/templates/types"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 

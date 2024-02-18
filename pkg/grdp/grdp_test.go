@@ -2,7 +2,7 @@ package grdp
 
 import (
 	"fmt"
-	"github.com/homelanmder/synScanner/pkg/grdp/glog"
+	"line/pkg/grdp/glog"
 	"testing"
 )
 

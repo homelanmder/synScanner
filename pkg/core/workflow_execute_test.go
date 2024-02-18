@@ -3,14 +3,14 @@ package core
 import (
 	"testing"
 
-	"github.com/homelanmder/synScanner/pkg/model/types/stringslice"
-	"github.com/homelanmder/synScanner/pkg/operators"
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/progress"
-	"github.com/homelanmder/synScanner/pkg/protocols"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
-	"github.com/homelanmder/synScanner/pkg/types"
-	"github.com/homelanmder/synScanner/pkg/workflows"
+	"line/pkg/model/types/stringslice"
+	"line/pkg/operators"
+	"line/pkg/output"
+	"line/pkg/progress"
+	"line/pkg/protocols"
+	"line/pkg/protocols/common/contextargs"
+	"line/pkg/types"
+	"line/pkg/workflows"
 	"github.com/stretchr/testify/require"
 )
 

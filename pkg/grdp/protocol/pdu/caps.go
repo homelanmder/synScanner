@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/homelanmder/synScanner/pkg/grdp/glog"
+	"line/pkg/grdp/glog"
 
 	"github.com/lunixbochs/struc"
-	"github.com/homelanmder/synScanner/pkg/grdp/core"
-	"github.com/homelanmder/synScanner/pkg/grdp/protocol/t125/gcc"
+	"line/pkg/grdp/core"
+	"line/pkg/grdp/protocol/t125/gcc"
 )
 
 type CapsType uint16

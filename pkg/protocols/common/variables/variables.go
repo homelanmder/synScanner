@@ -5,12 +5,12 @@ import (
 	"strings"
 
 	"github.com/alecthomas/jsonschema"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/expressions"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/interactsh"
-	protocolutils "github.com/homelanmder/synScanner/pkg/protocols/utils"
-	"github.com/homelanmder/synScanner/pkg/types"
-	"github.com/homelanmder/synScanner/pkg/utils"
+	"line/pkg/protocols/common/expressions"
+	"line/pkg/protocols/common/generators"
+	"line/pkg/protocols/common/interactsh"
+	protocolutils "line/pkg/protocols/utils"
+	"line/pkg/types"
+	"line/pkg/utils"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 

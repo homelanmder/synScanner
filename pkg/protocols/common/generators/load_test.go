@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/homelanmder/synScanner/pkg/catalog/disk"
+	"line/pkg/catalog/disk"
 	osutils "github.com/projectdiscovery/utils/os"
 	"github.com/stretchr/testify/require"
 )

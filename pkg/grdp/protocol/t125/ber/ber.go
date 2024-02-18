@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/homelanmder/synScanner/pkg/grdp/core"
+	"line/pkg/grdp/core"
 )
 
 const (

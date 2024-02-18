@@ -7,7 +7,7 @@ import (
 
 	"github.com/Knetic/govaluate"
 	"github.com/itchyny/gojq"
-	"github.com/homelanmder/synScanner/pkg/operators/common/dsl"
+	"line/pkg/operators/common/dsl"
 )
 
 // CompileExtractors performs the initial setup operation on an extractor

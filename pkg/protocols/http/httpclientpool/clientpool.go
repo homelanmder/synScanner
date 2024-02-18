@@ -15,10 +15,10 @@ import (
 	"strings"
 	"sync"
 	"time"
-	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
-	"github.com/homelanmder/synScanner/pkg/protocols/utils"
-	"github.com/homelanmder/synScanner/pkg/rawhttp"
-	"github.com/homelanmder/synScanner/pkg/types"
+	"line/pkg/fastdialer/fastdialer"
+	"line/pkg/protocols/utils"
+	"line/pkg/rawhttp"
+	"line/pkg/types"
 )
 
 var (

@@ -3,11 +3,11 @@ package http
 import (
 	"encoding/json"
 	"strings"
-	"github.com/homelanmder/synScanner/pkg/protocols/http/signer"
+	"line/pkg/protocols/http/signer"
 
 	"github.com/alecthomas/jsonschema"
 	"github.com/pkg/errors"
-	//"github.com/homelanmder/synScanner/pkg/protocols/http/signer"
+	//"line/pkg/protocols/http/signer"
 )
 
 // SignatureType is the type of signature

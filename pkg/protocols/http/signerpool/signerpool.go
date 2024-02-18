@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/homelanmder/synScanner/pkg/protocols/http/signer"
+	"line/pkg/protocols/http/signer"
 
-	"github.com/homelanmder/synScanner/pkg/types"
+	"line/pkg/types"
 )
 
 var (

@@ -7,11 +7,11 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/homelanmder/synScanner/pkg/operators/common/dsl"
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/protocols"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/helpers/writer"
+	"line/pkg/operators/common/dsl"
+	"line/pkg/output"
+	"line/pkg/protocols"
+	"line/pkg/protocols/common/contextargs"
+	"line/pkg/protocols/common/helpers/writer"
 )
 
 // Executer executes a group of requests for a protocol

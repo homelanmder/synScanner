@@ -3,8 +3,8 @@ package offlinehttp
 import (
 	"github.com/pkg/errors"
 
-	"github.com/homelanmder/synScanner/pkg/operators"
-	"github.com/homelanmder/synScanner/pkg/protocols"
+	"line/pkg/operators"
+	"line/pkg/protocols"
 )
 
 // Request is a offline http response processing request

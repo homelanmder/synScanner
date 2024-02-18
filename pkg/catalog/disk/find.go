@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	//"github.com/projectdiscovery/gologger"
 	stringsutil "github.com/projectdiscovery/utils/strings"
-	"github.com/homelanmder/synScanner/pkg/catalog/config"
+	"line/pkg/catalog/config"
 	//updateutils "github.com/projectdiscovery/utils/update"
 	urlutil "github.com/projectdiscovery/utils/url"
 )

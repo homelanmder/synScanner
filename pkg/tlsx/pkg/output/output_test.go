@@ -3,7 +3,7 @@ package output
 import (
 	"testing"
 
-	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
+	"line/pkg/tlsx/pkg/tlsx/clients"
 	"github.com/stretchr/testify/require"
 )
 

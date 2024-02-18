@@ -3,7 +3,7 @@ package rawhttp
 import (
 	"time"
 
-	"github.com/homelanmder/synScanner/pkg/rawhttp/clientpipeline"
+	"line/pkg/rawhttp/clientpipeline"
 )
 
 // PipelineOptions contains options for pipelined http client

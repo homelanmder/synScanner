@@ -2,10 +2,10 @@ package eventcreator
 
 import (
 	"github.com/projectdiscovery/gologger"
-	"github.com/homelanmder/synScanner/pkg/operators"
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/protocols"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/utils/vardump"
+	"line/pkg/operators"
+	"line/pkg/output"
+	"line/pkg/protocols"
+	"line/pkg/protocols/common/utils/vardump"
 )
 
 // CreateEvent wraps the outputEvent with the result of the operators defined on the request

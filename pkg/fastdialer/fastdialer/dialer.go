@@ -16,7 +16,7 @@ import (
 	"net"
 	"strings"
 	"time"
-	"github.com/homelanmder/synScanner/pkg/hmap/store/hybrid"
+	"line/pkg/hmap/store/hybrid"
 )
 
 func init() {

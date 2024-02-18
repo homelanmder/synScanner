@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/goflags"
-	"github.com/homelanmder/synScanner/pkg/model/types/stringslice"
+	"line/pkg/model/types/stringslice"
 )
 
 // Severities used by the goflags library for parsing an array of Severity types, passed as CLI arguments from the user

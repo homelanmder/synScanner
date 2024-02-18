@@ -3,8 +3,8 @@ package rawhttp
 import (
 	"time"
 
-	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
-	"github.com/homelanmder/synScanner/pkg/rawhttp/client"
+	"line/pkg/fastdialer/fastdialer"
+	"line/pkg/rawhttp/client"
 )
 
 // Options contains configuration options for rawhttp client

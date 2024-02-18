@@ -3,8 +3,8 @@ package pdu
 import (
 	"bytes"
 
-	"github.com/homelanmder/synScanner/pkg/grdp/core"
-	"github.com/homelanmder/synScanner/pkg/grdp/glog"
+	"line/pkg/grdp/core"
+	"line/pkg/grdp/glog"
 )
 
 /**

@@ -5,8 +5,8 @@ import (
 
 	"github.com/projectdiscovery/fasttemplate"
 
-	"github.com/homelanmder/synScanner/pkg/protocols/common/marker"
-	"github.com/homelanmder/synScanner/pkg/types"
+	"line/pkg/protocols/common/marker"
+	"line/pkg/types"
 )
 
 // Replace replaces placeholders in template with values on the fly.

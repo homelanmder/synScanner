@@ -5,14 +5,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/homelanmder/synScanner/pkg/model"
-	"github.com/homelanmder/synScanner/pkg/model/types/severity"
-	"github.com/homelanmder/synScanner/pkg/operators"
-	"github.com/homelanmder/synScanner/pkg/operators/extractors"
-	"github.com/homelanmder/synScanner/pkg/operators/matchers"
-	"github.com/homelanmder/synScanner/pkg/output"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
-	"github.com/homelanmder/synScanner/pkg/testutils"
+	"line/pkg/model"
+	"line/pkg/model/types/severity"
+	"line/pkg/operators"
+	"line/pkg/operators/extractors"
+	"line/pkg/operators/matchers"
+	"line/pkg/output"
+	"line/pkg/protocols/common/contextargs"
+	"line/pkg/testutils"
 )
 
 func TestDNSExecuteWithResults(t *testing.T) {

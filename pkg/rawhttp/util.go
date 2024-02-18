@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/homelanmder/synScanner/pkg/rawhttp/client"
+	"line/pkg/rawhttp/client"
 	urlutil "github.com/projectdiscovery/utils/url"
 )
 

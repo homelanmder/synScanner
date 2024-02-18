@@ -8,7 +8,7 @@ import (
 	"github.com/alecthomas/jsonschema"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/goflags"
-	"github.com/homelanmder/synScanner/pkg/model/types/stringslice"
+	"line/pkg/model/types/stringslice"
 )
 
 // ProtocolType is the type of the request protocol specified

@@ -8,8 +8,8 @@ import (
 
 	fileutil "github.com/projectdiscovery/utils/file"
 	stringsutil "github.com/projectdiscovery/utils/strings"
-	"github.com/homelanmder/synScanner/pkg/hmap/store/cache"
-	"github.com/homelanmder/synScanner/pkg/hmap/store/disk"
+	"line/pkg/hmap/store/cache"
+	"line/pkg/hmap/store/disk"
 )
 
 type MapType int

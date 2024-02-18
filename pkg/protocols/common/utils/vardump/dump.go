@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/homelanmder/synScanner/pkg/types"
+	"line/pkg/types"
 )
 
 // EnableVarDump enables var dump for debugging optionally

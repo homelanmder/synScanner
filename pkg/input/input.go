@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/homelanmder/synScanner/pkg/hmap/store/hybrid"
+	"line/pkg/hmap/store/hybrid"
 	fileutil "github.com/projectdiscovery/utils/file"
 	"github.com/projectdiscovery/utils/ports"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 	urlutil "github.com/projectdiscovery/utils/url"
-	templateTypes "github.com/homelanmder/synScanner/pkg/templates/types"
+	templateTypes "line/pkg/templates/types"
 )
 
 // Helper is a structure for helping with input transformation

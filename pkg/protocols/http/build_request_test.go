@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/homelanmder/synScanner/pkg/model"
-	"github.com/homelanmder/synScanner/pkg/model/types/severity"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
-	"github.com/homelanmder/synScanner/pkg/protocols/common/interactsh"
-	"github.com/homelanmder/synScanner/pkg/testutils"
+	"line/pkg/model"
+	"line/pkg/model/types/severity"
+	"line/pkg/protocols/common/contextargs"
+	"line/pkg/protocols/common/generators"
+	"line/pkg/protocols/common/interactsh"
+	"line/pkg/testutils"
 )
 
 func TestMakeRequestFromModal(t *testing.T) {
