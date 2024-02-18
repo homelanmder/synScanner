@@ -27,9 +27,7 @@ func main() {
 		flag.Usage()
 		return
 	}
-	if common.InteractIp == "" {
-		common.InteractIp = common.LocalIp
-	}
+
 	common.HttpClient = &fasthttp.Client{
 		ReadTimeout:                   time.Duration(common.Timeout) * time.Second,
 		WriteTimeout:                  time.Duration(common.Timeout) * time.Second,
@@ -49,6 +47,9 @@ func main() {
 			conn, err := dialer.Dial(common.Tcp, addr)
 			return conn, err
 		},
+	}
+	if common.InteractIp == "" {
+		common.InteractIp = common.LocalIp
 	}
 	go plugin.Run()
 	scan.Scan(ips, ports)
