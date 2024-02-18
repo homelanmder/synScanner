@@ -9,7 +9,7 @@ import (
 // WorkPool implements an execution pool for executing different
 // types of task with different concurrency requirements.
 //
-// It also allows Configuration of such requirements. This is used
+// It also allows Configuration of such requirements	. This is used
 // for per-module like separate headless concurrency etc.
 type WorkPool struct {
 	Headless *sizedwaitgroup.SizedWaitGroup
