@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"line/pkg/grdp/protocol/nla"
+	"github.com/homelanmder/synScanner/pkg/grdp/protocol/nla"
 )
 
 func TestNTOWFv2(t *testing.T) {

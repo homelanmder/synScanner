@@ -8,8 +8,8 @@ import (
 	"github.com/h2non/filetype"
 	"github.com/pkg/errors"
 
-	"line/pkg/operators"
-	"line/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/protocols"
 )
 
 var (

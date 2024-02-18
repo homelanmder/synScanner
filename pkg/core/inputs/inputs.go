@@ -1,6 +1,6 @@
 package inputs
 
-import "line/pkg/protocols/common/contextargs"
+import "github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
 
 type SimpleInputProvider struct {
 	Inputs []*contextargs.MetaInput

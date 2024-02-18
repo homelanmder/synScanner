@@ -3,14 +3,14 @@ package tlsx
 import (
 	"strconv"
 
-	"line/pkg/fastdialer/fastdialer"
+	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
 	"github.com/projectdiscovery/gologger"
-	"line/pkg/tlsx/pkg/tlsx/auto"
-	"line/pkg/tlsx/pkg/tlsx/clients"
-	"line/pkg/tlsx/pkg/tlsx/jarm"
-	"line/pkg/tlsx/pkg/tlsx/openssl"
-	"line/pkg/tlsx/pkg/tlsx/tls"
-	"line/pkg/tlsx/pkg/tlsx/ztls"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/auto"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/jarm"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/openssl"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/tls"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/ztls"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )

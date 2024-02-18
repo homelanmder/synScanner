@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/types"
 )
 
 // CleanStructFieldJSONTag cleans struct json tag field

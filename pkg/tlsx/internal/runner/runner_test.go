@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/projectdiscovery/dnsx/libs/dnsx"
-	"line/pkg/tlsx/pkg/tlsx/clients"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
 	"github.com/stretchr/testify/require"
 )
 

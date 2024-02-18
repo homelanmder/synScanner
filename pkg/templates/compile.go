@@ -10,12 +10,12 @@ import (
 
 	"github.com/projectdiscovery/retryablehttp-go"
 	stringsutil "github.com/projectdiscovery/utils/strings"
-	"line/pkg/operators"
-	"line/pkg/protocols"
-	"line/pkg/protocols/common/executer"
-	"line/pkg/protocols/offlinehttp"
-	"line/pkg/templates/cache"
-	"line/pkg/utils"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/executer"
+	"github.com/homelanmder/synScanner/pkg/protocols/offlinehttp"
+	"github.com/homelanmder/synScanner/pkg/templates/cache"
+	"github.com/homelanmder/synScanner/pkg/utils"
 )
 
 var (

@@ -8,9 +8,9 @@ import (
 	"github.com/remeh/sizedwaitgroup"
 
 	"github.com/projectdiscovery/gologger"
-	"line/pkg/output"
-	"line/pkg/protocols/common/contextargs"
-	"line/pkg/workflows"
+	"github.com/homelanmder/synScanner/pkg/output"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
+	"github.com/homelanmder/synScanner/pkg/workflows"
 )
 
 const workflowStepExecutionError = "[%s] Could not execute workflow step: %s\n"

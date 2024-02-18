@@ -5,15 +5,15 @@ import (
 	"strings"
 	"time"
 
-	"line/pkg/model"
-	"line/pkg/operators"
-	"line/pkg/operators/extractors"
-	"line/pkg/operators/matchers"
-	"line/pkg/output"
-	"line/pkg/protocols"
-	"line/pkg/protocols/common/helpers/responsehighlighter"
-	"line/pkg/protocols/utils"
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/model"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/operators/extractors"
+	"github.com/homelanmder/synScanner/pkg/operators/matchers"
+	"github.com/homelanmder/synScanner/pkg/output"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/helpers/responsehighlighter"
+	"github.com/homelanmder/synScanner/pkg/protocols/utils"
+	"github.com/homelanmder/synScanner/pkg/types"
 )
 
 // Match matches a generic data response again a given matcher

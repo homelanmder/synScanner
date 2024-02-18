@@ -6,7 +6,7 @@ import (
 
 	"github.com/logrusorgru/aurora"
 	// "github.com/projectdiscovery/gologger"
-	"line/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
 )
 
 var (

@@ -3,22 +3,22 @@ package templates
 
 import (
 	"encoding/json"
-	"line/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols"
 
 	validate "github.com/go-playground/validator/v10"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	"go.uber.org/multierr"
 	"gopkg.in/yaml.v2"
-	"line/pkg/model"
-	"line/pkg/protocols/common/variables"
-	"line/pkg/protocols/dns"
-	"line/pkg/protocols/file"
-	"line/pkg/protocols/http"
-	"line/pkg/protocols/network"
-	"line/pkg/protocols/ssl"
-	"line/pkg/protocols/websocket"
-	//"line/pkg/protocols/whois"
-	"line/pkg/templates/types"
+	"github.com/homelanmder/synScanner/pkg/model"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/variables"
+	"github.com/homelanmder/synScanner/pkg/protocols/dns"
+	"github.com/homelanmder/synScanner/pkg/protocols/file"
+	"github.com/homelanmder/synScanner/pkg/protocols/http"
+	"github.com/homelanmder/synScanner/pkg/protocols/network"
+	"github.com/homelanmder/synScanner/pkg/protocols/ssl"
+	"github.com/homelanmder/synScanner/pkg/protocols/websocket"
+	//"github.com/homelanmder/synScanner/pkg/protocols/whois"
+	"github.com/homelanmder/synScanner/pkg/templates/types"
 )
 
 // Template is a YAML input file which defines all the requests and

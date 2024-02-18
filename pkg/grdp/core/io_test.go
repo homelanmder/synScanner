@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"line/pkg/grdp/core"
+	"github.com/homelanmder/synScanner/pkg/grdp/core"
 )
 
 func TestWriteUInt16LE(t *testing.T) {

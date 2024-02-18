@@ -3,16 +3,16 @@
 package templates
 
 import (
-	"line/pkg/model"
-	"line/pkg/model/types/severity"
-	"line/pkg/model/types/stringslice"
-	"line/pkg/operators"
-	"line/pkg/operators/extractors"
-	"line/pkg/operators/matchers"
-	"line/pkg/protocols/dns"
-	"line/pkg/protocols/file"
-	"line/pkg/protocols/http"
-	"line/pkg/protocols/network"
+	"github.com/homelanmder/synScanner/pkg/model"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/model/types/stringslice"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/operators/extractors"
+	"github.com/homelanmder/synScanner/pkg/operators/matchers"
+	"github.com/homelanmder/synScanner/pkg/protocols/dns"
+	"github.com/homelanmder/synScanner/pkg/protocols/file"
+	"github.com/homelanmder/synScanner/pkg/protocols/http"
+	"github.com/homelanmder/synScanner/pkg/protocols/network"
 )
 
 var (

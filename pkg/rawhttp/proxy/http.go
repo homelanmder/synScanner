@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"line/pkg/rawhttp/client"
+	"github.com/homelanmder/synScanner/pkg/rawhttp/client"
 )
 
 func HTTPDialer(proxyAddr string, timeout time.Duration) DialFunc {

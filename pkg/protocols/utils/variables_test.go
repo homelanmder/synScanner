@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"line/pkg/protocols/common/contextargs"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
 	urlutil "github.com/projectdiscovery/utils/url"
 	"github.com/stretchr/testify/require"
 )

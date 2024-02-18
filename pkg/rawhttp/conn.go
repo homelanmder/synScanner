@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"line/pkg/rawhttp/client"
-	"line/pkg/rawhttp/proxy"
+	"github.com/homelanmder/synScanner/pkg/rawhttp/client"
+	"github.com/homelanmder/synScanner/pkg/rawhttp/proxy"
 )
 
 // Dialer can dial a remote HTTP server.

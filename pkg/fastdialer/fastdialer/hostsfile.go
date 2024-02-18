@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"line/pkg/hmap/store/hybrid"
+	"github.com/homelanmder/synScanner/pkg/hmap/store/hybrid"
 )
 
 func loadHostsFile(hm *hybrid.HybridMap) error {

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/types"
 	fileutil "github.com/projectdiscovery/utils/file"
 	folderutil "github.com/projectdiscovery/utils/folder"
 )

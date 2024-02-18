@@ -8,7 +8,7 @@ import (
 	"github.com/antchfx/htmlquery"
 	"github.com/antchfx/xmlquery"
 
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/types"
 )
 
 // ExtractRegex extracts text from a corpus and returns it

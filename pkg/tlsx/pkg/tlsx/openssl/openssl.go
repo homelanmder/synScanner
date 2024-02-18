@@ -7,10 +7,10 @@ import (
 	"net"
 	"time"
 
-	"line/pkg/fastdialer/fastdialer"
+	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
 	"github.com/projectdiscovery/gologger"
-	"line/pkg/tlsx/pkg/output/stats"
-	"line/pkg/tlsx/pkg/tlsx/clients"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/output/stats"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
 	errorutils "github.com/projectdiscovery/utils/errors"
 	iputil "github.com/projectdiscovery/utils/ip"
 	stringsutil "github.com/projectdiscovery/utils/strings"

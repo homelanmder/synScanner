@@ -3,13 +3,13 @@ package filter
 import (
 	"testing"
 
-	"line/pkg/model"
-	"line/pkg/model/types/severity"
-	"line/pkg/model/types/stringslice"
-	"line/pkg/protocols/dns"
-	"line/pkg/protocols/http"
-	"line/pkg/templates"
-	"line/pkg/templates/types"
+	"github.com/homelanmder/synScanner/pkg/model"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/model/types/stringslice"
+	"github.com/homelanmder/synScanner/pkg/protocols/dns"
+	"github.com/homelanmder/synScanner/pkg/protocols/http"
+	"github.com/homelanmder/synScanner/pkg/templates"
+	"github.com/homelanmder/synScanner/pkg/templates/types"
 	"github.com/stretchr/testify/require"
 )
 

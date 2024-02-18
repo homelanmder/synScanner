@@ -7,11 +7,11 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	"github.com/remeh/sizedwaitgroup"
-	"line/pkg/output"
-	"line/pkg/protocols/common/contextargs"
-	"line/pkg/templates"
-	"line/pkg/templates/types"
-	generalTypes "line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/output"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
+	"github.com/homelanmder/synScanner/pkg/templates"
+	"github.com/homelanmder/synScanner/pkg/templates/types"
+	generalTypes "github.com/homelanmder/synScanner/pkg/types"
 )
 
 // Executors are low level executors that deals with template execution on a target

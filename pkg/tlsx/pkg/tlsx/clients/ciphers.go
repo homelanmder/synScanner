@@ -3,7 +3,7 @@ package clients
 import (
 	"strings"
 
-	"line/pkg/tlsx/assets"
+	"github.com/homelanmder/synScanner/pkg/tlsx/assets"
 )
 
 // CipherSecLevel

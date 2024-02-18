@@ -18,11 +18,11 @@ import (
 	"github.com/projectdiscovery/interactsh/pkg/server"
 	fileutil "github.com/projectdiscovery/utils/file"
 	osutils "github.com/projectdiscovery/utils/os"
-	"line/pkg/model"
-	"line/pkg/model/types/severity"
-	"line/pkg/operators"
-	"line/pkg/types"
-	"line/pkg/utils"
+	"github.com/homelanmder/synScanner/pkg/model"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/utils"
 )
 
 // Writer is an interface which writes output to somewhere for nuclei events.

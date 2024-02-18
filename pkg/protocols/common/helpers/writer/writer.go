@@ -2,9 +2,9 @@ package writer
 
 import (
 	"github.com/projectdiscovery/gologger"
-	"line/pkg/output"
-	"line/pkg/progress"
-	//"line/pkg/reporting"
+	"github.com/homelanmder/synScanner/pkg/output"
+	"github.com/homelanmder/synScanner/pkg/progress"
+	//"github.com/homelanmder/synScanner/pkg/reporting"
 )
 
 // WriteResult is a helper for writing results to the output

@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"line/pkg/fastdialer/fastdialer"
-	"line/pkg/tlsx/pkg/tlsx/clients"
-	"line/pkg/tlsx/pkg/tlsx/openssl"
+	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/openssl"
 )
 
 func TestOpenssL(t *testing.T) {

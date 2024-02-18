@@ -1,6 +1,6 @@
 package core
 
-import "line/pkg/grdp/emission"
+import "github.com/homelanmder/synScanner/pkg/grdp/emission"
 
 type Transport interface {
 	Read(b []byte) (n int, err error)

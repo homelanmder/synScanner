@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"line/pkg/rawhttp"
+	"github.com/homelanmder/synScanner/pkg/rawhttp"
 	"github.com/remeh/sizedwaitgroup"
 )
 

@@ -9,15 +9,15 @@ import (
 	"sync"
 	"time"
 
-	"line/pkg/grdp/core"
-	"line/pkg/grdp/glog"
-	"line/pkg/grdp/protocol/nla"
-	"line/pkg/grdp/protocol/pdu"
-	"line/pkg/grdp/protocol/rfb"
-	"line/pkg/grdp/protocol/sec"
-	"line/pkg/grdp/protocol/t125"
-	"line/pkg/grdp/protocol/tpkt"
-	"line/pkg/grdp/protocol/x224"
+	"github.com/homelanmder/synScanner/pkg/grdp/core"
+	"github.com/homelanmder/synScanner/pkg/grdp/glog"
+	"github.com/homelanmder/synScanner/pkg/grdp/protocol/nla"
+	"github.com/homelanmder/synScanner/pkg/grdp/protocol/pdu"
+	"github.com/homelanmder/synScanner/pkg/grdp/protocol/rfb"
+	"github.com/homelanmder/synScanner/pkg/grdp/protocol/sec"
+	"github.com/homelanmder/synScanner/pkg/grdp/protocol/t125"
+	"github.com/homelanmder/synScanner/pkg/grdp/protocol/tpkt"
+	"github.com/homelanmder/synScanner/pkg/grdp/protocol/x224"
 )
 
 const (

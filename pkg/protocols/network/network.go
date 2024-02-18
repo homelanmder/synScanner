@@ -5,12 +5,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"line/pkg/fastdialer/fastdialer"
-	"line/pkg/operators"
-	"line/pkg/protocols"
-	"line/pkg/protocols/common/expressions"
-	"line/pkg/protocols/common/generators"
-	"line/pkg/protocols/network/networkclientpool"
+	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/expressions"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/protocols/network/networkclientpool"
 	fileutil "github.com/projectdiscovery/utils/file"
 )
 

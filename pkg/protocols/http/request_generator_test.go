@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"line/pkg/catalog/disk"
-	"line/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/catalog/disk"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
 )
 
 func TestRequestGeneratorPaths(t *testing.T) {

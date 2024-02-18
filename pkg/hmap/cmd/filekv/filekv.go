@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	fileutil "github.com/projectdiscovery/utils/file"
-	"line/pkg/hmap/filekv"
+	"github.com/homelanmder/synScanner/pkg/hmap/filekv"
 )
 
 func main() {

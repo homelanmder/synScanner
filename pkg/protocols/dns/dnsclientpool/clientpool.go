@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/types"
 	"github.com/projectdiscovery/retryabledns"
 )
 

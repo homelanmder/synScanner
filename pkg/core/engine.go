@@ -1,10 +1,10 @@
 package core
 
 import (
-	"line/pkg/output"
-	"line/pkg/protocols"
-	"line/pkg/protocols/common/contextargs"
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/output"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
+	"github.com/homelanmder/synScanner/pkg/types"
 )
 
 // Engine is an executer for running Nuclei Templates/Workflows.

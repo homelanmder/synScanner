@@ -7,10 +7,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"line/pkg/operators/extractors"
-	"line/pkg/operators/matchers"
-	"line/pkg/protocols/common/generators"
-	"line/pkg/protocols/common/utils/excludematchers"
+	"github.com/homelanmder/synScanner/pkg/operators/extractors"
+	"github.com/homelanmder/synScanner/pkg/operators/matchers"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/utils/excludematchers"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 

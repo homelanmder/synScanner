@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"line/pkg/model/types/severity"
-	"line/pkg/model/types/stringslice"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/model/types/stringslice"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v2"
 )

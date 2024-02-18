@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"line/pkg/model"
-	"line/pkg/model/types/severity"
-	"line/pkg/operators"
-	"line/pkg/testutils"
+	"github.com/homelanmder/synScanner/pkg/model"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/testutils"
 )
 
 func TestFindResponses(t *testing.T) {

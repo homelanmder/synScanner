@@ -6,16 +6,16 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"line/pkg/catalog"
-	cfg "line/pkg/catalog/config"
-	"line/pkg/catalog/loader/filter"
-	"line/pkg/model/types/severity"
-	"line/pkg/parsers"
-	"line/pkg/protocols"
-	"line/pkg/templates"
-	templateTypes "line/pkg/templates/types"
-	"line/pkg/types"
-	"line/pkg/utils/stats"
+	"github.com/homelanmder/synScanner/pkg/catalog"
+	cfg "github.com/homelanmder/synScanner/pkg/catalog/config"
+	"github.com/homelanmder/synScanner/pkg/catalog/loader/filter"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/parsers"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/templates"
+	templateTypes "github.com/homelanmder/synScanner/pkg/templates/types"
+	"github.com/homelanmder/synScanner/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/utils/stats"
 )
 
 // Config contains the configuration options for the loader

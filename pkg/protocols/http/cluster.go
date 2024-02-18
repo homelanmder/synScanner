@@ -1,7 +1,7 @@
 package http
 
 import (
-	"line/pkg/protocols/common/compare"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/compare"
 )
 
 // CanCluster returns true if the request can be clustered.

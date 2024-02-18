@@ -8,15 +8,15 @@ import (
 	json "github.com/json-iterator/go"
 	"github.com/pkg/errors"
 
-	"line/pkg/rawhttp"
+	"github.com/homelanmder/synScanner/pkg/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
 	fileutil "github.com/projectdiscovery/utils/file"
-	"line/pkg/operators"
-	"line/pkg/protocols"
-	"line/pkg/protocols/common/expressions"
-	"line/pkg/protocols/common/generators"
-	"line/pkg/protocols/http/fuzz"
-	"line/pkg/protocols/http/httpclientpool"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/expressions"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/protocols/http/fuzz"
+	"github.com/homelanmder/synScanner/pkg/protocols/http/httpclientpool"
 )
 
 // Request contains a http request to be made from a template
@@ -168,7 +168,7 @@ type Request struct {
 	// description: |
 	//   Unsafe specifies whether to use rawhttp engine for sending Non RFC-Compliant requests.
 	//
-	//   This uses the [rawhttp](https://line/pkg/rawhttp) engine to achieve complete
+	//   This uses the [rawhttp](https://github.com/homelanmder/synScanner/pkg/rawhttp) engine to achieve complete
 	//   control over the request, with no normalization performed by the client.
 	Unsafe bool `yaml:"unsafe,omitempty" json:"unsafe,omitempty" jsonschema:"title=use rawhttp non-strict-rfc client,description=Unsafe specifies whether to use rawhttp engine for sending Non RFC-Compliant requests"`
 	// description: |
@@ -180,7 +180,7 @@ type Request struct {
 	//   ReqCondition automatically assigns numbers to requests and preserves their history.
 	//
 	//   This allows matching on them later for multi-request conditions.
-	// Deprecated: request condition will be detected automatically (https://github.com/projectdiscovery/line/issues/2393)
+	// Deprecated: request condition will be detected automatically (https://github.com/projectdiscovery/github.com/homelanmder/synScanner/issues/2393)
 	ReqCondition bool `yaml:"req-condition,omitempty" json:"req-condition,omitempty" jsonschema:"title=preserve request history,description=Automatically assigns numbers to requests and preserves their history"`
 	// description: |
 	//   StopAtFirstMatch stops the execution of the requests and template as soon as a match is found.

@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/corpix/uarand"
-	"line/pkg/protocols/common/expressions"
-	"line/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/expressions"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
 	"github.com/projectdiscovery/retryablehttp-go"
 	urlutil "github.com/projectdiscovery/utils/url"
 )

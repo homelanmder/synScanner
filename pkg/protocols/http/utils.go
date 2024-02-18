@@ -13,8 +13,8 @@ import (
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"golang.org/x/text/transform"
 
-	"line/pkg/protocols/common/generators"
-	"line/pkg/rawhttp"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/rawhttp"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 

@@ -3,7 +3,7 @@ package input
 import (
 	"testing"
 
-	"line/pkg/hmap/store/hybrid"
+	"github.com/homelanmder/synScanner/pkg/hmap/store/hybrid"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/types"
 	"github.com/stretchr/testify/require"
 )
 

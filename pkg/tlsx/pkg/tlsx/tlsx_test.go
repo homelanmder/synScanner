@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"line/pkg/fastdialer/fastdialer"
-	"line/pkg/tlsx/pkg/tlsx"
-	"line/pkg/tlsx/pkg/tlsx/clients"
-	"line/pkg/tlsx/pkg/tlsx/openssl"
+	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/clients"
+	"github.com/homelanmder/synScanner/pkg/tlsx/pkg/tlsx/openssl"
 	iputil "github.com/projectdiscovery/utils/ip"
 )
 

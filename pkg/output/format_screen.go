@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/types"
 )
 
 // formatScreen formats the output for showing on screen.

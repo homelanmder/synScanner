@@ -1,7 +1,7 @@
 package protocolstate
 
 import (
-	"line/pkg/fastdialer/fastdialer"
+	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
 )
 
 // Dialer is a shared fastdialer instance for host DNS resolution

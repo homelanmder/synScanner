@@ -7,7 +7,7 @@ import (
 
 	"github.com/alecthomas/jsonschema"
 
-	"line/pkg/utils"
+	"github.com/homelanmder/synScanner/pkg/utils"
 )
 
 // StringSlice represents a single (in-lined) or multiple string value(s).

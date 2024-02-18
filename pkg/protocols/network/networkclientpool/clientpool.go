@@ -1,9 +1,9 @@
 package networkclientpool
 
 import (
-	"line/pkg/fastdialer/fastdialer"
-	"line/pkg/protocols/common/protocolstate"
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/protocolstate"
+	"github.com/homelanmder/synScanner/pkg/types"
 )
 
 var (

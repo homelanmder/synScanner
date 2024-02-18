@@ -7,7 +7,7 @@ import (
 
 	"github.com/logrusorgru/aurora"
 
-	"line/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/operators"
 )
 
 var colorFunction = aurora.Green

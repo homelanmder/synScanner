@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/Knetic/govaluate"
-	"line/pkg/operators/common/dsl"
+	"github.com/homelanmder/synScanner/pkg/operators/common/dsl"
 	"github.com/stretchr/testify/require"
 )
 

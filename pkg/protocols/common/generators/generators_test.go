@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"line/pkg/catalog/disk"
+	"github.com/homelanmder/synScanner/pkg/catalog/disk"
 )
 
 func TestBatteringRamGenerator(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"line/pkg/rawhttp/clientpipeline"
+	"github.com/homelanmder/synScanner/pkg/rawhttp/clientpipeline"
 	retryablehttp "github.com/projectdiscovery/retryablehttp-go"
 	urlutil "github.com/projectdiscovery/utils/url"
 )

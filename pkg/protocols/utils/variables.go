@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/gologger"
-	"line/pkg/protocols/common/contextargs"
-	"line/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/contextargs"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
 	urlutil "github.com/projectdiscovery/utils/url"
 	"github.com/weppos/publicsuffix-go/publicsuffix"
 )

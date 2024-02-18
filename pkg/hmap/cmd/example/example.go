@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"line/pkg/hmap/store/hybrid"
+	"github.com/homelanmder/synScanner/pkg/hmap/store/hybrid"
 )
 
 func main() {

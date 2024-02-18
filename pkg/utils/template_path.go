@@ -3,7 +3,7 @@ package utils
 import (
 	"strings"
 
-	"line/pkg/catalog/config"
+	"github.com/homelanmder/synScanner/pkg/catalog/config"
 )
 
 const (

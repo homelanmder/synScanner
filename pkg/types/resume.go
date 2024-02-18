@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"line/pkg/catalog/config"
+	"github.com/homelanmder/synScanner/pkg/catalog/config"
 	"github.com/rs/xid"
 )
 

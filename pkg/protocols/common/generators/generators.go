@@ -5,8 +5,8 @@ package generators
 import (
 	"github.com/pkg/errors"
 
-	"line/pkg/catalog"
-	"line/pkg/catalog/config"
+	"github.com/homelanmder/synScanner/pkg/catalog"
+	"github.com/homelanmder/synScanner/pkg/catalog/config"
 )
 
 // PayloadGenerator is the generator struct for generating payloads

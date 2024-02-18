@@ -8,8 +8,8 @@ import (
 	"github.com/miekg/dns"
 	"github.com/projectdiscovery/dsl"
 	"github.com/projectdiscovery/gologger"
-	"line/pkg/protocols/dns/dnsclientpool"
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/protocols/dns/dnsclientpool"
+	"github.com/homelanmder/synScanner/pkg/types"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 

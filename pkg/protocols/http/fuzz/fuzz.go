@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"line/pkg/protocols"
-	"line/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
 )
 
 // Rule is a single rule which describes how to fuzz the request

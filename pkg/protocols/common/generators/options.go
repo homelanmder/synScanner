@@ -1,7 +1,7 @@
 package generators
 
 import (
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/types"
 )
 
 // BuildPayloadFromOptions returns a map with the payloads provided via CLI

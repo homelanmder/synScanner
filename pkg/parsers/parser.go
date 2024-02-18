@@ -7,15 +7,15 @@ import (
 	"strings"
 
 	"gopkg.in/yaml.v2"
-	"line/pkg/catalog"
-	"line/pkg/catalog/config"
-	"line/pkg/catalog/loader/filter"
-	"line/pkg/templates"
-	"line/pkg/templates/cache"
-	"line/pkg/templates/signer"
-	"line/pkg/templates/types"
-	"line/pkg/utils"
-	"line/pkg/utils/stats"
+	"github.com/homelanmder/synScanner/pkg/catalog"
+	"github.com/homelanmder/synScanner/pkg/catalog/config"
+	"github.com/homelanmder/synScanner/pkg/catalog/loader/filter"
+	"github.com/homelanmder/synScanner/pkg/templates"
+	"github.com/homelanmder/synScanner/pkg/templates/cache"
+	"github.com/homelanmder/synScanner/pkg/templates/signer"
+	"github.com/homelanmder/synScanner/pkg/templates/types"
+	"github.com/homelanmder/synScanner/pkg/utils"
+	"github.com/homelanmder/synScanner/pkg/utils/stats"
 )
 
 const (

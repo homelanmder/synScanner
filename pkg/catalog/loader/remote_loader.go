@@ -8,8 +8,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"line/pkg/templates/extensions"
-	"line/pkg/utils"
+	"github.com/homelanmder/synScanner/pkg/templates/extensions"
+	"github.com/homelanmder/synScanner/pkg/utils"
 	"github.com/projectdiscovery/retryablehttp-go"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )

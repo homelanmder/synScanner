@@ -2,10 +2,10 @@ package parsers
 
 import (
 	"github.com/projectdiscovery/gologger"
-	"line/pkg/catalog/config"
-	"line/pkg/catalog/loader/filter"
-	"line/pkg/model"
-	"line/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/catalog/config"
+	"github.com/homelanmder/synScanner/pkg/catalog/loader/filter"
+	"github.com/homelanmder/synScanner/pkg/model"
+	"github.com/homelanmder/synScanner/pkg/protocols"
 )
 
 type workflowLoader struct {

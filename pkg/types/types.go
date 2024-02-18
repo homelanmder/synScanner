@@ -4,8 +4,8 @@ import (
 	"github.com/projectdiscovery/goflags"
 	fileutil "github.com/projectdiscovery/utils/file"
 	"time"
-	"line/pkg/model/types/severity"
-	"line/pkg/templates/types"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/templates/types"
 )
 
 // Options contains the configuration options for nuclei scanner.

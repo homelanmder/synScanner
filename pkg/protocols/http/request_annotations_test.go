@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"line/pkg/protocols/http/httpclientpool"
+	"github.com/homelanmder/synScanner/pkg/protocols/http/httpclientpool"
 	"github.com/projectdiscovery/retryablehttp-go"
 	"github.com/stretchr/testify/require"
 )

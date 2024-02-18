@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"line/pkg/fastdialer/fastdialer"
+	"github.com/homelanmder/synScanner/pkg/fastdialer/fastdialer"
 )
 
 // OneTimePool is a pool designed to create continous bare connections that are for one time only usage

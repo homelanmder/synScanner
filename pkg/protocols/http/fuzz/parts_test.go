@@ -3,8 +3,8 @@ package fuzz
 import (
 	"testing"
 
-	"line/pkg/protocols"
-	"line/pkg/protocols/common/interactsh"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/interactsh"
 	urlutil "github.com/projectdiscovery/utils/url"
 	"github.com/stretchr/testify/require"
 )

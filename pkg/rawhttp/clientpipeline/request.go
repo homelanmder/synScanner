@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"line/pkg/rawhttp/client"
+	"github.com/homelanmder/synScanner/pkg/rawhttp/client"
 )
 
 var (

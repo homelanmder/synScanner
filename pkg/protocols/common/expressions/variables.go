@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/Knetic/govaluate"
-	"line/pkg/operators/common/dsl"
+	"github.com/homelanmder/synScanner/pkg/operators/common/dsl"
 )
 
 var (

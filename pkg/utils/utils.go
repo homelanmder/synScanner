@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	"line/pkg/catalog"
-	"line/pkg/catalog/config"
-	"line/pkg/utils/yaml"
+	"github.com/homelanmder/synScanner/pkg/catalog"
+	"github.com/homelanmder/synScanner/pkg/catalog/config"
+	"github.com/homelanmder/synScanner/pkg/utils/yaml"
 	"github.com/projectdiscovery/retryablehttp-go"
 	fileutil "github.com/projectdiscovery/utils/file"
 )

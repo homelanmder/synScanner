@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"line/pkg/catalog/disk"
-	"line/pkg/catalog/loader/filter"
-	"line/pkg/model"
-	"line/pkg/model/types/severity"
-	"line/pkg/model/types/stringslice"
-	"line/pkg/templates"
+	"github.com/homelanmder/synScanner/pkg/catalog/disk"
+	"github.com/homelanmder/synScanner/pkg/catalog/loader/filter"
+	"github.com/homelanmder/synScanner/pkg/model"
+	"github.com/homelanmder/synScanner/pkg/model/types/severity"
+	"github.com/homelanmder/synScanner/pkg/model/types/stringslice"
+	"github.com/homelanmder/synScanner/pkg/templates"
 	"github.com/stretchr/testify/require"
 )
 

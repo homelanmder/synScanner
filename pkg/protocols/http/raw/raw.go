@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"line/pkg/rawhttp/client"
+	"github.com/homelanmder/synScanner/pkg/rawhttp/client"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 	urlutil "github.com/projectdiscovery/utils/url"

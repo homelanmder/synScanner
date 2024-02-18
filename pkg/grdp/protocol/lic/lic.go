@@ -3,7 +3,7 @@ package lic
 import (
 	"io"
 
-	"line/pkg/grdp/core"
+	"github.com/homelanmder/synScanner/pkg/grdp/core"
 )
 
 const (

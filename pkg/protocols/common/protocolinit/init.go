@@ -1,7 +1,7 @@
 package protocolinit
 
 import (
-	"line/pkg/types"
+	"github.com/homelanmder/synScanner/pkg/types"
 )
 
 // Init initializes the client pools for the protocols

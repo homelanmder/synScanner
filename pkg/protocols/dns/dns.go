@@ -6,12 +6,12 @@ import (
 	"github.com/miekg/dns"
 	"github.com/pkg/errors"
 
-	"line/pkg/operators"
-	"line/pkg/protocols"
-	"line/pkg/protocols/common/expressions"
-	"line/pkg/protocols/common/generators"
-	"line/pkg/protocols/common/replacer"
-	"line/pkg/protocols/dns/dnsclientpool"
+	"github.com/homelanmder/synScanner/pkg/operators"
+	"github.com/homelanmder/synScanner/pkg/protocols"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/expressions"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/generators"
+	"github.com/homelanmder/synScanner/pkg/protocols/common/replacer"
+	"github.com/homelanmder/synScanner/pkg/protocols/dns/dnsclientpool"
 	"github.com/projectdiscovery/retryabledns"
 	fileutil "github.com/projectdiscovery/utils/file"
 )

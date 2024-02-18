@@ -1,7 +1,7 @@
 package filter
 
 import (
-	"line/pkg/catalog"
+	"github.com/homelanmder/synScanner/pkg/catalog"
 )
 
 // PathFilter is a path based template filter
