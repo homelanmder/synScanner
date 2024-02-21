@@ -40,8 +40,7 @@ func Scan(ips, ports string) {
 	var c *arp.Client
 
 	scanner := SynScanner{
-		Channel: make(chan *common.HostInfo, common.Thread*100),
-		Wg:      new(sync.WaitGroup),
+		Wg: new(sync.WaitGroup),
 	}
 
 	if route, err = routing.New(); err != nil {
@@ -75,6 +74,7 @@ func Scan(ips, ports string) {
 		fmt.Println(err.Error())
 		return
 	}
+	scanner.Channel = make(chan *common.HostInfo, len(allIp)*10)
 	go scanner.DecodePacket()
 	for i := 0; i < common.Thread; i++ {
 		go func() {
