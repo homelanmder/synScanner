@@ -74,6 +74,7 @@ func Scan(ips, ports string) {
 		fmt.Println(err.Error())
 		return
 	}
+	//假设每个ip都有10个端口开放，避免往channel发送数据时，解包阻塞导致丢包
 	scanner.Channel = make(chan *common.HostInfo, len(allIp)*10)
 	go scanner.DecodePacket()
 	for i := 0; i < common.Thread; i++ {
