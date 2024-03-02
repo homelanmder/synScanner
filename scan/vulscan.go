@@ -6,6 +6,7 @@ import (
 )
 
 func WeakScan(hostInfo *common.HostInfo) {
+
 	switch hostInfo.VulType {
 	case common.Ftp:
 		plugin.FtpConn(hostInfo)

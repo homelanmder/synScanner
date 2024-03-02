@@ -65,7 +65,10 @@ func Scan(ips, ports string) {
 		fmt.Println(err.Error())
 		return
 	}
-	scanner.Handle, err = pcap.OpenLive(common.InterfaceName, 65536, true, pcap.BlockForever)
+	if scanner.Handle, err = pcap.OpenLive(common.InterfaceName, 65536, true, pcap.BlockForever);err!=nil{
+		fmt.Println(err.Error())
+		return
+	}
 	if allIp, err = parseIps(ips); err != nil {
 		fmt.Println(err.Error())
 		return
